@@ -1,0 +1,365 @@
+{
+  "nav": {
+    "timeline": "Timeline",
+    "themes": "Features",
+    "map": "Map",
+    "museum": "Museum",
+    "media": "Media",
+    "publications": "Publications",
+    "reconstructions": "Reconstructions"
+  },
+  "hero": {
+    "badge": "Historical Archive",
+    "title1": "Cold War",
+    "title2": "Bulgaria",
+    "description": "An immersive journey through 45 years of life behind the Iron Curtain.",
+    "cta_timeline": "Explore Timeline",
+    "cta_museum": "Enter Museum",
+    "years": "Years",
+    "start": "Start",
+    "end": "End"
+  },
+  "timeline": {
+    "badge": "Historical Overview",
+    "title": "45 Years Behind the",
+    "title_accent": "Iron Curtain",
+    "description": "From the Soviet-backed coup in 1944 to the fall of the regime in 1989, Bulgaria remained one of the most loyal allies of the USSR.",
+    "quote": "Those who do not learn History are doomed to repeat it",
+    "disclaimer": "This website has been designated and registered online for cultural and historical purposes. It is in no way the tool of any political ideology.",
+    "events": {
+      "coup1944": {
+        "title": "The Coup of September 9",
+        "description": "Communist-led partisans, armed by the British SOE and supported by the USSR, overthrow the royalist government allied with Nazi Germany. The Red Army had entered Bulgarian territory three days earlier."
+      },
+      "peoplesCourt": {
+        "title": "People's Court Trials",
+        "description": "Over 2,700 'war criminals' sentenced to death including regents, ministers, and MPs."
+      },
+      "referendum": {
+        "title": "Republic Referendum",
+        "description": "Bulgaria declared a people's republic following the referendum."
+      },
+      "dimitrovConstitution": {
+        "title": "Dimitrov Constitution",
+        "description": "The Georgi Dimitrov Constitution adopted, effective until 1971."
+      },
+      "dimitrovDeath": {
+        "title": "Death of Georgi Dimitrov",
+        "description": "Dimitrov died and was displayed in the Georgi Dimitrov Mausoleum."
+      },
+      "chervenkov": {
+        "title": "Rise of Chervenkov",
+        "description": "Valko Chervenkov succeeded Dimitrov as general secretary until 1954."
+      },
+      "zhivkovPower": {
+        "title": "Todor Zhivkov Takes Power",
+        "description": "Zhivkov became head of the communist party, ruling for 35 years."
+      },
+      "warsawPact": {
+        "title": "Bulgaria Joins Warsaw Pact",
+        "description": "Bulgaria became a founding member of the Soviet-led military alliance."
+      },
+      "aprilConspiracy": {
+        "title": "The April Conspiracy",
+        "description": "Failed coup attempt to overthrow Todor Zhivkov exposed."
+      },
+      "czechoslovakia": {
+        "title": "Invasion of Czechoslovakia",
+        "description": "Bulgarian troops joined Warsaw Pact invasion to crush the Prague Spring."
+      },
+      "zhivkovConstitution": {
+        "title": "Zhivkov Constitution",
+        "description": "New constitution in effect until the end of the People's Republic."
+      },
+      "markov": {
+        "title": "Assassination of Georgi Markov",
+        "description": "Bulgarian dissident Georgi Markov assassinated in London with a poison-tipped umbrella, ordered by Bulgarian secret services."
+      },
+      "cosmonaut": {
+        "title": "First Bulgarian Cosmonaut",
+        "description": "Georgi Ivanov launched into space on Mission Soyuz 33."
+      },
+      "years1300": {
+        "title": "1300 Years of Bulgaria",
+        "description": "Massive military parade in Sofia celebrated 1300 years of statehood."
+      },
+      "buzludzha": {
+        "title": "Buzludzha Inauguration",
+        "description": "The Bulgarian Communist Party monument house inaugurated."
+      },
+      "revivalProcess": {
+        "title": "Revival Process Begins",
+        "description": "Forced assimilation campaign against Turkish minority began."
+      },
+      "greatExcursion": {
+        "title": "The Great Excursion",
+        "description": "Around 320,000 ethnic Turks expelled or fled Bulgaria."
+      },
+      "regimeFall": {
+        "title": "Fall of the Regime",
+        "description": "One day after Berlin Wall fell, Zhivkov was relieved of power."
+      },
+      "endOfEra": {
+        "title": "End of an Era",
+        "description": "People's Republic of Bulgaria officially ends, transition to democracy."
+      }
+    }
+  },
+  "themes": {
+    "badge": "— Browse by feature —",
+    "title": "Stories From a",
+    "title_accent": "Divided World",
+    "description": "Each feature brings together a few objects, documents and photographs on a single subject, to tell one aspect of life behind the Iron Curtain.",
+    "coming_soon": "Coming soon",
+    "daily_life_title": "Daily Life",
+    "daily_life_desc": "How ordinary Bulgarians lived under socialism — food queues, housing blocks, youth brigades and the rhythm of a controlled society.",
+    "youth_title": "Youth & Education",
+    "youth_desc": "The Pioneers, Komsomol brigades, state schools and the systematic ideological formation of the next generation.",
+    "sports_title": "Sports & Leisure",
+    "sports_desc": "Olympic medals, state sports clubs, organized holidays and the use of sport as a tool of national pride and Cold War competition.",
+    "labor_title": "Labor & Economy",
+    "labor_desc": "Factories, collectivized farms, five-year plans and the objects of a centrally planned socialist economy.",
+    "politics_title": "Political Life",
+    "politics_desc": "The Communist Party, elections, ideology, ceremonies and the cult of personality that shaped Bulgarian political life.",
+    "propaganda_title": "Propaganda & Media",
+    "propaganda_desc": "State-controlled newspapers, radio, television, posters and the machinery of ideological persuasion at work every day.",
+    "tech_title": "Technology & Science",
+    "tech_desc": "Space industry, Soviet computing, telecommunications and the technological ambitions of a socialist state.",
+    "military_title": "Military & Civil Defense",
+    "military_desc": "Bunkers, nuclear shelters, Warsaw Pact drills and the infrastructure of a country permanently prepared for war.",
+    "surveillance_title": "Surveillance & State Security",
+    "surveillance_desc": "The Darzhavna Sigurnost and its vast network of informants. One in six Bulgarians was monitored by the secret police.",
+    "borders_title": "Borders & Iron Curtain",
+    "borders_desc": "Forbidden zones, electrified fences, checkpoints and desperate escape attempts across the Bulgarian frontier.",
+    "documents_title": "Documents & Press",
+    "documents_desc": "Official documents, censored newspapers, state publications, archives and printed materials from the communist era."
+  },
+  "map": {
+    "badge": "— Interactive Map —",
+    "title": "Bulgaria Behind the",
+    "title_accent": "Iron Curtain",
+    "description": "Explore key locations of Cold War Bulgaria — monuments, bunkers, border zones and model socialist cities.",
+    "active": "ACTIVE",
+    "locations": "LOCATIONS",
+    "classification": "▶ Classification",
+    "select_location": "[ SELECT A LOCATION ]",
+    "select_hint": "Click on any marker to view details",
+    "oblast": "Oblast",
+    "types": {
+      "capital": "Capital",
+      "city": "Major Cities",
+      "monument": "Monuments",
+      "brutalist": "Brutalist Architecture",
+      "industrial": "Industrial Sites",
+      "border": "Border Zones",
+      "military": "Military",
+      "model-city": "Model Cities",
+      "camp": "Camps & Repression"
+    },
+    "sites": {
+      "sofia": {
+        "description": "Capital and power center. Home to the Largo Complex, the National Palace of Culture (NDK), and the Monument to the Soviet Army."
+      },
+      "plovdiv": {
+        "description": "Second largest city. Famous for the Alyosha monument dominating the city from Bunardzhik Hill."
+      },
+      "varna": {
+        "description": "Pearl of the Black Sea. Site of the massive Monument of Bulgarian-Soviet Friendship."
+      },
+      "burgas": {
+        "description": "Key industrial port during the Cold War. Typical 1970s urban architecture and proximity to strategic refineries."
+      },
+      "veliko-tarnovo": {
+        "description": "Former medieval capital and strategic base for visiting the Buzludzha Monument."
+      },
+      "stara-zagora": {
+        "description": "City rebuilt on a perfect grid plan. Home to the Defenders of Stara Zagora Memorial."
+      },
+      "ruse": {
+        "description": "The Little Vienna, major border point with Romania via the Friendship Bridge."
+      },
+      "dimitrovgrad": {
+        "description": "The model socialist city of Bulgaria, built from scratch in the 1940s-50s by youth brigades."
+      },
+      "pernik": {
+        "description": "Center of heavy industry and mining. Typical Palace of Culture."
+      },
+      "pleven": {
+        "description": "Famous for the Pleven Epic 1877 Panorama, constructed by the USSR and Bulgaria in 1977."
+      },
+      "shumen": {
+        "description": "Home to the gigantic Monument to the Founders of the Bulgarian State (1300 years)."
+      },
+      "sliven": {
+        "description": "Known for textile industry during socialist times."
+      },
+      "dobrich": {
+        "description": "Agricultural center of the northeast. Soviet-style central square."
+      },
+      "blagoevgrad": {
+        "description": "University city in the southwest near Greece and North Macedonia borders."
+      },
+      "kardzhali": {
+        "description": "Southern city near the Kardzhali Dam, a major Cold War infrastructure project."
+      },
+      "pazardzhik": {
+        "description": "Agricultural and industrial center with typical socialist-era factories."
+      },
+      "kyustendil": {
+        "description": "Spa town near the Serbian border. Thermal baths state-owned during communist times."
+      },
+      "gabrovo": {
+        "description": "Industrial hub known as the Bulgarian Manchester. Center of textile production."
+      },
+      "smolyan": {
+        "description": "Mountain city built as a model socialist city in the 1960s-70s."
+      },
+      "lovech": {
+        "description": "Famous for the Covered Bridge and proximity to Devetashka Cave (military storage)."
+      },
+      "montana": {
+        "description": "Northwestern city with mining heritage and typical brutalist architecture."
+      },
+      "vidin": {
+        "description": "Border city on the Danube River. Strategic location during Cold War."
+      },
+      "vratsa": {
+        "description": "City at the foot of the Balkan Mountains. Memorial complex dedicated to socialist-era heroes."
+      },
+      "razgrad": {
+        "description": "Agricultural and industrial center in northeast Bulgaria."
+      },
+      "silistra": {
+        "description": "Danube port city on the Romanian border."
+      },
+      "targovishte": {
+        "description": "Center of the Bulgarian tobacco industry during communist times."
+      },
+      "yambol": {
+        "description": "Industrial city in southeastern Bulgaria with military connections."
+      },
+      "haskovo": {
+        "description": "Southern city near the Turkish and Greek borders."
+      },
+      "bansko": {
+        "description": "Mountain town in the Pirin Mountains. During the Cold War, Bansko was developed as a state-controlled ski and tourism resort, accessible only to approved citizens and foreign visitors."
+      },
+      "borovets": {
+        "description": "Bulgaria's oldest mountain resort at the foot of Rila Mountain. Under communism, Borovets was a prestigious resort reserved for party officials and approved tourists."
+      },
+      "belene": {
+        "description": "Labour camp on Persin Island in the Danube. Operated from 1949 to 1959, then reopened in 1985 to detain ethnic Turks who resisted the Revival Process."
+      },
+      "buzludzha": {
+        "description": "Monument house of the Bulgarian Communist Party, opened in 1981 on Buzludzha Peak. Abandoned since 1989 and now derelict."
+      }
+    }
+  },
+  "museum": {
+    "badge": "— Digital Museum —",
+    "title": "The",
+    "title_accent": "Archive",
+    "description": "A curated collection of artifacts, documents and objects from Cold War Bulgaria. Collection currently being catalogued.",
+    "cataloguing": "Cataloguing in progress",
+    "artifact_title": "Artifact Coming Soon",
+    "artifact_source": "Cold War Bulgaria Collection",
+    "banner_title": "Collection being catalogued",
+    "banner_desc": "Artifacts are currently being digitized and catalogued using Tropy. The full collection will be available soon.",
+    "cat_all": "All"
+  },
+  "reconstructions": {
+    "badge": "LABORATORY — SYNTHETIC IMAGES",
+    "title": "Reconstructions",
+    "title_accent": "by AI",
+    "description": "An experiment: what artificial intelligence makes of an era, working from real documents.",
+    "notice_title": "These images are not archival documents",
+    "notice_body": "Every image in this section is generated by artificial intelligence from period photographs. They document nothing; they offer an interpretation. This section exists because AI has become a tool of our time, and testing it against historical material seemed more interesting than ignoring it. The collection's authentic documents are elsewhere on this site, where no generated image is published.",
+    "ai_badge": "AI generated",
+    "coming": "Coming soon",
+    "items": {
+      "street": {
+        "title": "Sofia street",
+        "source": "After a 1970s photograph"
+      },
+      "interior": {
+        "title": "Apartment interior",
+        "source": "After a 1980s photograph"
+      },
+      "factory": {
+        "title": "Industrial site",
+        "source": "After a 1960s photograph"
+      },
+      "parade": {
+        "title": "Official parade",
+        "source": "After a 1980s photograph"
+      }
+    }
+  },
+  "media": {
+    "badge": "— Media —",
+    "title": "Stories in",
+    "title_accent": "Motion",
+    "description": "Video documentaries, archive footage and podcasts bringing Cold War Bulgaria to life.",
+    "doc_title": "Documentary Series",
+    "doc_desc": "In-depth video documentaries exploring key events, locations and stories from Cold War Bulgaria.",
+    "doc_status": "In production",
+    "footage_title": "Archive Footage",
+    "footage_desc": "Rare archive footage and photographs from the communist era, sourced and restored from private collections.",
+    "footage_status": "Coming soon",
+    "podcast_title": "Podcast",
+    "podcast_desc": "Audio interviews, historical analyses and stories from witnesses of Cold War Bulgaria.",
+    "podcast_status": "Coming soon",
+    "youtube_title": "Peoples Republic Of Bulgaria",
+    "youtube_desc": "180+ videos — History, URBEX, Tourism & Collection",
+    "youtube_cta": "Visit Channel"
+  },
+  "publications": {
+    "badge": "— Publications —",
+    "title": "Books &",
+    "title_accent": "Guides",
+    "description": "E-books, field guides and illustrated catalogues from the Cold War Bulgaria collection.",
+    "cover_coming": "Cover coming soon",
+    "pub1_type": "E-Book",
+    "pub1_title": "Cold War Bulgaria — A Visual History",
+    "pub1_desc": "A comprehensive visual guide through 45 years of communist Bulgaria. Photographs, documents and artifacts from the private Cold War Bulgaria collection.",
+    "pub1_status": "In preparation",
+    "pub2_type": "Urbex Guide",
+    "pub2_title": "Abandoned Bulgaria — Field Guide Vol.1",
+    "pub2_desc": "A practical guide to the forgotten monuments, bunkers and abandoned sites of communist-era Bulgaria. Locations, history and photography tips.",
+    "pub2_status": "Coming soon",
+    "pub3_type": "E-Book",
+    "pub3_title": "The Objects of the Regime",
+    "pub3_desc": "An illustrated catalogue of everyday objects from communist Bulgaria — from propaganda posters to military insignia and domestic artifacts.",
+    "pub3_status": "Coming soon",
+    "notify_title": "Be notified on release",
+    "notify_desc": "Follow the project to be the first to know when new publications are available.",
+    "notify_cta": "Follow the project"
+  },
+  "partners": {
+    "badge": "— Partners & Collaborators —",
+    "title": "They Support the",
+    "title_accent": "Project",
+    "description": "Institutions, collectors and creators who contribute to preserving the memory of Cold War Bulgaria.",
+    "become_partner": "Become a Partner",
+    "coming_soon": "Coming soon"
+  },
+  "footer": {
+    "description": "An online multimedia museum documenting daily life, infrastructure, propaganda, and memory of the Cold War era in Bulgaria (1944–1989).",
+    "explore": "Explore",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "mentions": "Legal Notice",
+    "gdpr": "GDPR Rights",
+    "notice_title": "Notice",
+    "notice_text": "This website has been designated and registered online for cultural and historical purposes. It is in no way the tool of any political ideology."
+  },
+  "legal": {
+    "nav_privacy": "Privacy Policy",
+    "nav_terms": "Terms of Use",
+    "nav_cookies": "Cookie Policy",
+    "nav_mentions": "Legal Notice",
+    "nav_gdpr": "GDPR Rights"
+  }
+}

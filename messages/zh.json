@@ -1,0 +1,365 @@
+{
+  "nav": {
+    "timeline": "时间线",
+    "themes": "专题",
+    "map": "地图",
+    "museum": "博物馆",
+    "media": "媒体",
+    "publications": "出版物",
+    "reconstructions": "AI 重构"
+  },
+  "hero": {
+    "badge": "历史档案",
+    "title1": "冷战",
+    "title2": "保加利亚",
+    "description": "沉浸式探索铁幕后45年的生活。",
+    "cta_timeline": "探索时间线",
+    "cta_museum": "进入博物馆",
+    "years": "年",
+    "start": "开始",
+    "end": "结束"
+  },
+  "timeline": {
+    "badge": "历史概述",
+    "title": "45年铁幕",
+    "title_accent": "背后的生活",
+    "description": "从1944年苏联支持的政变到1989年政权垮台，保加利亚始终是苏联最忠实的盟友之一。",
+    "quote": "不学历史的人注定要重蹈覆辙",
+    "disclaimer": "本网站以文化和历史为目的创建，绝非任何政治意识形态的工具。",
+    "events": {
+      "coup1944": {
+        "title": "九月九日政变",
+        "description": "由共产党领导、英国特别行动处武装并得到苏联支持的游击队，推翻了与纳粹德国结盟的保皇派政府。三天前，红军已进入保加利亚领土。"
+      },
+      "peoplesCourt": {
+        "title": "人民法庭审判",
+        "description": "超过2,700名「战争罪犯」被判处死刑，其中包括摄政、部长和议员。"
+      },
+      "referendum": {
+        "title": "共和国公投",
+        "description": "公投之后，保加利亚被宣布为人民共和国。"
+      },
+      "dimitrovConstitution": {
+        "title": "季米特洛夫宪法",
+        "description": "格奥尔基·季米特洛夫宪法获得通过，一直施行至1971年。"
+      },
+      "dimitrovDeath": {
+        "title": "格奥尔基·季米特洛夫之死",
+        "description": "季米特洛夫去世，遗体在格奥尔基·季米特洛夫陵墓中供人瞻仰。"
+      },
+      "chervenkov": {
+        "title": "契尔文科夫的崛起",
+        "description": "瓦尔科·契尔文科夫接替季米特洛夫出任总书记，直至1954年。"
+      },
+      "zhivkovPower": {
+        "title": "托多尔·日夫科夫掌权",
+        "description": "日夫科夫成为共产党领导人，执政长达35年。"
+      },
+      "warsawPact": {
+        "title": "保加利亚加入华沙条约组织",
+        "description": "保加利亚成为苏联主导的军事同盟的创始成员国。"
+      },
+      "aprilConspiracy": {
+        "title": "四月密谋",
+        "description": "一起意图推翻托多尔·日夫科夫的未遂政变被揭发。"
+      },
+      "czechoslovakia": {
+        "title": "入侵捷克斯洛伐克",
+        "description": "保加利亚军队参加了华沙条约组织的入侵行动，镇压了布拉格之春。"
+      },
+      "zhivkovConstitution": {
+        "title": "日夫科夫宪法",
+        "description": "新宪法一直施行至人民共和国终结。"
+      },
+      "markov": {
+        "title": "格奥尔基·马尔科夫遇刺",
+        "description": "保加利亚异见人士格奥尔基·马尔科夫在伦敦被一把带毒针尖的雨伞刺杀，行动由保加利亚秘密警察下令实施。"
+      },
+      "cosmonaut": {
+        "title": "首位保加利亚宇航员",
+        "description": "格奥尔基·伊万诺夫搭乘联盟33号任务进入太空。"
+      },
+      "years1300": {
+        "title": "保加利亚建国1300年",
+        "description": "索非亚举行大规模阅兵，庆祝建国1300周年。"
+      },
+      "buzludzha": {
+        "title": "布兹卢贾纪念碑落成",
+        "description": "保加利亚共产党纪念堂落成启用。"
+      },
+      "revivalProcess": {
+        "title": "「复兴进程」开始",
+        "description": "针对土耳其少数民族的强制同化运动开始。"
+      },
+      "greatExcursion": {
+        "title": "大远足",
+        "description": "约32万土耳其族人被驱逐或逃离保加利亚。"
+      },
+      "regimeFall": {
+        "title": "政权倒台",
+        "description": "柏林墙倒塌一天后，日夫科夫被解除权力。"
+      },
+      "endOfEra": {
+        "title": "一个时代的终结",
+        "description": "保加利亚人民共和国正式终结，开始向民主转型。"
+      }
+    }
+  },
+  "themes": {
+    "badge": "— 按专题浏览 —",
+    "title": "来自分裂世界的",
+    "title_accent": "故事",
+    "description": "每个专题围绕一个主题，汇集若干藏品、文献与照片，讲述铁幕之下生活的一个侧面。",
+    "coming_soon": "即将推出",
+    "daily_life_title": "日常生活",
+    "daily_life_desc": "普通保加利亚人在社会主义下的生活——食品排队、住宅楼、青年旅团和受控社会的节奏。",
+    "youth_title": "青年与教育",
+    "youth_desc": "先锋队、共青团旅团、国立学校以及对下一代系统性的意识形态塑造。",
+    "sports_title": "体育与休闲",
+    "sports_desc": "奥运奖牌、国家体育俱乐部、有组织的假期，以及将体育作为民族自豪感工具的做法。",
+    "labor_title": "劳动与经济",
+    "labor_desc": "工厂、集体农庄、五年计划，以及中央计划社会主义经济的产物。",
+    "politics_title": "政治生活",
+    "politics_desc": "共产党、选举、意识形态、仪式，以及塑造保加利亚政治生活的个人崇拜。",
+    "propaganda_title": "宣传与媒体",
+    "propaganda_desc": "国家控制的报纸、广播、电视、海报，以及每天运作的意识形态说服机器。",
+    "tech_title": "技术与科学",
+    "tech_desc": "航天工业、苏联计算技术、电信，以及社会主义国家的技术雄心。",
+    "military_title": "军事与民防",
+    "military_desc": "地堡、核避难所、华沙条约演习，以及一个永远备战国家的基础设施。",
+    "surveillance_title": "监控与国家安全",
+    "surveillance_desc": "达尔扎夫纳·西古尔诺斯特及其庞大的线人网络。每六个保加利亚人中就有一人被秘密警察监控。",
+    "borders_title": "边境与铁幕",
+    "borders_desc": "禁区、电气化围栏、检查站，以及穿越保加利亚边境的绝望逃亡尝试。",
+    "documents_title": "文件与新闻",
+    "documents_desc": "官方文件、审查报纸、国家出版物、档案及共产主义时代的印刷材料。"
+  },
+  "map": {
+    "badge": "— 互动地图 —",
+    "title": "铁幕背后的",
+    "title_accent": "保加利亚",
+    "description": "探索冷战保加利亚的关键地点——纪念碑、地堡、边境地区和社会主义示范城市。",
+    "active": "启用",
+    "locations": "地点",
+    "classification": "▶ 分类",
+    "select_location": "[ 选择地点 ]",
+    "select_hint": "点击标记查看详情",
+    "oblast": "州",
+    "types": {
+      "capital": "首都",
+      "city": "主要城市",
+      "monument": "纪念建筑",
+      "brutalist": "粗野主义建筑",
+      "industrial": "工业遗址",
+      "border": "边境地带",
+      "military": "军事设施",
+      "model-city": "样板城市",
+      "camp": "劳改营与镇压"
+    },
+    "sites": {
+      "sofia": {
+        "description": "首都与权力中心。拉尔戈建筑群、国家文化宫（NDK）和苏军纪念碑均坐落于此。"
+      },
+      "plovdiv": {
+        "description": "全国第二大城市。以矗立在布纳尔吉克山丘、俯瞰全城的阿廖沙雕像闻名。"
+      },
+      "varna": {
+        "description": "黑海明珠。保加利亚-苏联友谊纪念碑就建在这里。"
+      },
+      "burgas": {
+        "description": "冷战时期的重要工业港口。街区保留着典型的1970年代城市建筑，毗邻战略炼油厂。"
+      },
+      "veliko-tarnovo": {
+        "description": "昔日的中世纪首都，也是前往布兹卢贾纪念碑的据点。"
+      },
+      "stara-zagora": {
+        "description": "按完整棋盘格规划重建的城市。斯塔拉扎戈拉保卫者纪念碑坐落于此。"
+      },
+      "ruse": {
+        "description": "「小维也纳」，经友谊桥通往罗马尼亚的主要口岸。"
+      },
+      "dimitrovgrad": {
+        "description": "保加利亚的样板社会主义城市，1940至50年代由青年突击队从零建成。"
+      },
+      "pernik": {
+        "description": "重工业与采矿中心，建有典型的文化宫。"
+      },
+      "pleven": {
+        "description": "以1977年由苏联与保加利亚共同建造的「普列文史诗1877」全景馆闻名。"
+      },
+      "shumen": {
+        "description": "巨型的「保加利亚建国者纪念碑」（建国1300年）所在地。"
+      },
+      "sliven": {
+        "description": "以社会主义时期的纺织工业著称。"
+      },
+      "dobrich": {
+        "description": "东北部的农业中心，拥有苏式中央广场。"
+      },
+      "blagoevgrad": {
+        "description": "西南部的大学城，靠近希腊与北马其顿边境。"
+      },
+      "kardzhali": {
+        "description": "南部城市，邻近冷战时期重大基础设施工程克尔扎利水坝。"
+      },
+      "pazardzhik": {
+        "description": "农业与工业中心，保留着典型的社会主义时期工厂。"
+      },
+      "kyustendil": {
+        "description": "邻近塞尔维亚边境的温泉城。共产主义时期，温泉浴场归国家所有。"
+      },
+      "gabrovo": {
+        "description": "被称为「保加利亚的曼彻斯特」的工业中心，纺织生产的核心。"
+      },
+      "smolyan": {
+        "description": "1960至70年代作为样板社会主义城市建设的山城。"
+      },
+      "lovech": {
+        "description": "以廊桥和邻近的德韦塔什卡洞穴（军用仓库）闻名。"
+      },
+      "montana": {
+        "description": "西北部城市，具有采矿传统和典型的粗野主义建筑。"
+      },
+      "vidin": {
+        "description": "多瑙河畔的边境城市，冷战期间地处战略要冲。"
+      },
+      "vratsa": {
+        "description": "巴尔干山脚下的城市，建有纪念社会主义时期英雄的纪念建筑群。"
+      },
+      "razgrad": {
+        "description": "保加利亚东北部的农业与工业中心。"
+      },
+      "silistra": {
+        "description": "位于罗马尼亚边境的多瑙河港口城市。"
+      },
+      "targovishte": {
+        "description": "共产主义时期保加利亚烟草工业的中心。"
+      },
+      "yambol": {
+        "description": "保加利亚东南部的工业城市，设有军事设施。"
+      },
+      "haskovo": {
+        "description": "南部城市，靠近土耳其和希腊边境。"
+      },
+      "bansko": {
+        "description": "皮林山中的山城。冷战期间，班斯科被建设为国家控制下的滑雪与旅游胜地，仅向获准的公民和外国访客开放。"
+      },
+      "borovets": {
+        "description": "保加利亚最古老的山地度假地，位于里拉山脚下。共产主义时期，博罗维茨是专供党内干部和获准游客的高级疗养地。"
+      },
+      "belene": {
+        "description": "多瑙河佩尔辛岛上的劳改营。1949年至1959年运作，1985年重新启用，用于关押抵制「复兴进程」的土耳其族居民。"
+      },
+      "buzludzha": {
+        "description": "保加利亚共产党纪念堂，1981年在布兹卢贾峰落成。1989年后遭废弃，如今已成废墟。"
+      }
+    }
+  },
+  "museum": {
+    "badge": "— 数字博物馆 —",
+    "title": "",
+    "title_accent": "档案馆",
+    "description": "冷战时期保加利亚的文物、文件和物品精选集。藏品正在编目中。",
+    "cataloguing": "编目进行中",
+    "artifact_title": "文物即将推出",
+    "artifact_source": "冷战保加利亚藏品",
+    "banner_title": "藏品编目中",
+    "banner_desc": "文物目前正在使用Tropy进行数字化和编目。完整藏品即将开放。",
+    "cat_all": "全部"
+  },
+  "reconstructions": {
+    "badge": "实验室 — 生成图像",
+    "title": "AI",
+    "title_accent": "重构",
+    "description": "一次尝试：人工智能以真实史料为依据，会如何呈现一个时代。",
+    "notice_title": "这些图像并非档案文献",
+    "notice_body": "本栏目所有图像均由人工智能依据当年的照片生成。它们不记录任何事实，只提供一种诠释。设立本栏目，是因为人工智能已成为这个时代的工具，与其回避，不如把它放到历史材料上检验一番。藏品中的真实文献存于本站其他栏目，那里不发布任何生成图像。",
+    "ai_badge": "AI 生成",
+    "coming": "即将上线",
+    "items": {
+      "street": {
+        "title": "索非亚街景",
+        "source": "据1970年代照片"
+      },
+      "interior": {
+        "title": "住宅室内",
+        "source": "据1980年代照片"
+      },
+      "factory": {
+        "title": "工业厂区",
+        "source": "据1960年代照片"
+      },
+      "parade": {
+        "title": "官方阅兵",
+        "source": "据1980年代照片"
+      }
+    }
+  },
+  "media": {
+    "badge": "— 媒体 —",
+    "title": "运动中的",
+    "title_accent": "故事",
+    "description": "视频纪录片、档案影像和播客，让冷战保加利亚栩栩如生。",
+    "doc_title": "纪录片系列",
+    "doc_desc": "深入探索冷战保加利亚关键事件、地点和故事的视频纪录片。",
+    "doc_status": "制作中",
+    "footage_title": "档案影像",
+    "footage_desc": "来自私人收藏的共产主义时代珍贵档案影像和照片。",
+    "footage_status": "即将推出",
+    "podcast_title": "播客",
+    "podcast_desc": "冷战保加利亚见证者的音频访谈、历史分析和故事。",
+    "podcast_status": "即将推出",
+    "youtube_title": "保加利亚人民共和国",
+    "youtube_desc": "180+视频——历史、城市探险、旅游与藏品",
+    "youtube_cta": "访问频道"
+  },
+  "publications": {
+    "badge": "— 出版物 —",
+    "title": "书籍与",
+    "title_accent": "指南",
+    "description": "来自冷战保加利亚藏品的电子书、实地指南和图解目录。",
+    "cover_coming": "封面即将推出",
+    "pub1_type": "电子书",
+    "pub1_title": "冷战保加利亚——视觉历史",
+    "pub1_desc": "45年共产主义保加利亚的综合视觉指南，包含私人藏品中的照片、文件和文物。",
+    "pub1_status": "筹备中",
+    "pub2_type": "城探指南",
+    "pub2_title": "废弃的保加利亚——实地指南第1卷",
+    "pub2_desc": "共产主义保加利亚被遗忘的纪念碑、地堡和废弃场所的实用指南。",
+    "pub2_status": "即将推出",
+    "pub3_type": "电子书",
+    "pub3_title": "政权的物件",
+    "pub3_desc": "共产主义保加利亚日常用品的图解目录——从宣传海报到军事徽章。",
+    "pub3_status": "即将推出",
+    "notify_title": "发布时获得通知",
+    "notify_desc": "关注项目，第一时间了解新出版物的发布。",
+    "notify_cta": "关注项目"
+  },
+  "partners": {
+    "badge": "— 合作伙伴与协作者 —",
+    "title": "他们支持",
+    "title_accent": "本项目",
+    "description": "为保护冷战保加利亚记忆做出贡献的机构、收藏家和创作者。",
+    "become_partner": "成为合作伙伴",
+    "coming_soon": "即将推出"
+  },
+  "footer": {
+    "description": "一个在线多媒体博物馆，记录保加利亚冷战时期（1944–1989年）的日常生活、基础设施、宣传与记忆。",
+    "explore": "探索",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "cookies": "Cookie政策",
+    "mentions": "法律声明",
+    "gdpr": "GDPR权利",
+    "notice_title": "声明",
+    "notice_text": "本网站以文化和历史为目的创建，绝非任何政治意识形态的工具。"
+  },
+  "legal": {
+    "nav_privacy": "隐私政策",
+    "nav_terms": "使用条款",
+    "nav_cookies": "Cookie政策",
+    "nav_mentions": "法律声明",
+    "nav_gdpr": "GDPR权利"
+  }
+}

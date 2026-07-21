@@ -1,0 +1,365 @@
+{
+  "nav": {
+    "timeline": "Zeitstrahl",
+    "themes": "Dossiers",
+    "map": "Karte",
+    "museum": "Museum",
+    "media": "Medien",
+    "publications": "Publikationen",
+    "reconstructions": "Rekonstruktionen"
+  },
+  "hero": {
+    "badge": "Historisches Archiv",
+    "title1": "Kalter Krieg",
+    "title2": "Bulgarien",
+    "description": "Eine immersive Reise durch 45 Jahre Leben hinter dem Eisernen Vorhang.",
+    "cta_timeline": "Zeitstrahl erkunden",
+    "cta_museum": "Museum betreten",
+    "years": "Jahre",
+    "start": "Beginn",
+    "end": "Ende"
+  },
+  "timeline": {
+    "badge": "Historischer Überblick",
+    "title": "45 Jahre hinter dem",
+    "title_accent": "Eisernen Vorhang",
+    "description": "Vom sowjetisch unterstützten Putsch 1944 bis zum Sturz des Regimes 1989 blieb Bulgarien einer der treuesten Verbündeten der UdSSR.",
+    "quote": "Wer die Geschichte nicht kennt, ist dazu verdammt, sie zu wiederholen",
+    "disclaimer": "Diese Website wurde für kulturelle und historische Zwecke eingerichtet. Sie ist in keiner Weise ein Werkzeug einer politischen Ideologie.",
+    "events": {
+      "coup1944": {
+        "title": "Der Umsturz vom 9. September",
+        "description": "Von Kommunisten geführte Partisanen, bewaffnet vom britischen SOE und unterstützt von der UdSSR, stürzen die königstreue Regierung, die mit NS-Deutschland verbündet war. Die Rote Armee war drei Tage zuvor auf bulgarisches Gebiet vorgerückt."
+      },
+      "peoplesCourt": {
+        "title": "Die Prozesse des Volksgerichts",
+        "description": "Über 2.700 „Kriegsverbrecher“ wurden zum Tode verurteilt, darunter Regenten, Minister und Abgeordnete."
+      },
+      "referendum": {
+        "title": "Referendum über die Republik",
+        "description": "Nach dem Referendum wurde Bulgarien zur Volksrepublik erklärt."
+      },
+      "dimitrovConstitution": {
+        "title": "Dimitrow-Verfassung",
+        "description": "Die Georgi-Dimitrow-Verfassung wurde verabschiedet und galt bis 1971."
+      },
+      "dimitrovDeath": {
+        "title": "Tod von Georgi Dimitrow",
+        "description": "Dimitrow starb und wurde im Georgi-Dimitrow-Mausoleum aufgebahrt."
+      },
+      "chervenkov": {
+        "title": "Der Aufstieg Tschervenkows",
+        "description": "Walko Tschervenkow folgte Dimitrow als Generalsekretär bis 1954."
+      },
+      "zhivkovPower": {
+        "title": "Todor Schiwkow ergreift die Macht",
+        "description": "Schiwkow wurde Chef der kommunistischen Partei und regierte 35 Jahre lang."
+      },
+      "warsawPact": {
+        "title": "Bulgarien tritt dem Warschauer Pakt bei",
+        "description": "Bulgarien wurde Gründungsmitglied des von der Sowjetunion geführten Militärbündnisses."
+      },
+      "aprilConspiracy": {
+        "title": "Die April-Verschwörung",
+        "description": "Ein gescheiterter Putschversuch gegen Todor Schiwkow wurde aufgedeckt."
+      },
+      "czechoslovakia": {
+        "title": "Einmarsch in die Tschechoslowakei",
+        "description": "Bulgarische Truppen beteiligten sich am Einmarsch des Warschauer Pakts zur Niederschlagung des Prager Frühlings."
+      },
+      "zhivkovConstitution": {
+        "title": "Schiwkow-Verfassung",
+        "description": "Neue Verfassung, in Kraft bis zum Ende der Volksrepublik."
+      },
+      "markov": {
+        "title": "Die Ermordung von Georgi Markow",
+        "description": "Der bulgarische Dissident Georgi Markow wurde in London mit einem vergifteten Regenschirm ermordet, im Auftrag des bulgarischen Geheimdienstes."
+      },
+      "cosmonaut": {
+        "title": "Der erste bulgarische Kosmonaut",
+        "description": "Georgi Iwanow flog mit der Mission Sojus 33 ins All."
+      },
+      "years1300": {
+        "title": "1300 Jahre Bulgarien",
+        "description": "Eine gewaltige Militärparade in Sofia feierte 1300 Jahre Staatlichkeit."
+      },
+      "buzludzha": {
+        "title": "Einweihung von Busludscha",
+        "description": "Das Denkmalhaus der Bulgarischen Kommunistischen Partei wurde eingeweiht."
+      },
+      "revivalProcess": {
+        "title": "Beginn des Wiedergeburtsprozesses",
+        "description": "Die Kampagne zur Zwangsassimilierung der türkischen Minderheit begann."
+      },
+      "greatExcursion": {
+        "title": "Der Große Ausflug",
+        "description": "Rund 320.000 ethnische Türken wurden vertrieben oder flohen aus Bulgarien."
+      },
+      "regimeFall": {
+        "title": "Der Sturz des Regimes",
+        "description": "Einen Tag nach dem Fall der Berliner Mauer wurde Schiwkow seines Amtes enthoben."
+      },
+      "endOfEra": {
+        "title": "Ende einer Ära",
+        "description": "Die Volksrepublik Bulgarien endet offiziell, Übergang zur Demokratie."
+      }
+    }
+  },
+  "themes": {
+    "badge": "— Nach Dossier erkunden —",
+    "title": "Geschichten aus einer",
+    "title_accent": "geteilten Welt",
+    "description": "Jedes Dossier versammelt einige Objekte, Dokumente und Fotografien zu einem einzigen Thema, um eine Facette des Lebens hinter dem Eisernen Vorhang zu erzählen.",
+    "coming_soon": "Demnächst",
+    "daily_life_title": "Alltag",
+    "daily_life_desc": "Wie gewöhnliche Bulgaren unter dem Sozialismus lebten — Warteschlangen, Wohnblöcke, Jugendbrigaden und der Rhythmus einer kontrollierten Gesellschaft.",
+    "youth_title": "Jugend & Bildung",
+    "youth_desc": "Die Pioniere, Komsomol-Brigaden, Staatsschulen und die systematische ideologische Formung der nächsten Generation.",
+    "sports_title": "Sport & Freizeit",
+    "sports_desc": "Olympische Medaillen, staatliche Sportklubs, organisierte Urlaube und der Einsatz des Sports als Werkzeug des nationalen Stolzes.",
+    "labor_title": "Arbeit & Wirtschaft",
+    "labor_desc": "Fabriken, kollektivierte Höfe, Fünfjahrespläne und die Objekte einer zentral geplanten sozialistischen Wirtschaft.",
+    "politics_title": "Politisches Leben",
+    "politics_desc": "Die Kommunistische Partei, Wahlen, Ideologie, Zeremonien und der Personenkult, der das bulgarische politische Leben prägte.",
+    "propaganda_title": "Propaganda & Medien",
+    "propaganda_desc": "Staatlich kontrollierte Zeitungen, Radio, Fernsehen, Plakate und die Maschinerie ideologischer Überzeugungsarbeit.",
+    "tech_title": "Technologie & Wissenschaft",
+    "tech_desc": "Raumfahrtindustrie, sowjetische Computer, Telekommunikation und die technologischen Ambitionen eines sozialistischen Staates.",
+    "military_title": "Militär & Zivilschutz",
+    "military_desc": "Bunker, Atomschutzräume, Warschauer-Pakt-Übungen und die Infrastruktur eines dauerhaft kriegsbereiten Landes.",
+    "surveillance_title": "Überwachung & Staatssicherheit",
+    "surveillance_desc": "Die Darzhavna Sigurnost und ihr riesiges Netz von Informanten. Jeder sechste Bulgare wurde von der Geheimpolizei überwacht.",
+    "borders_title": "Grenzen & Eiserner Vorhang",
+    "borders_desc": "Verbotene Zonen, elektrifizierte Zäune, Kontrollpunkte und verzweifelte Fluchtversuche über die bulgarische Grenze.",
+    "documents_title": "Dokumente & Presse",
+    "documents_desc": "Offizielle Dokumente, zensierte Zeitungen, staatliche Publikationen, Archive und Druckmaterialien aus der kommunistischen Ära."
+  },
+  "map": {
+    "badge": "— Interaktive Karte —",
+    "title": "Bulgarien hinter dem",
+    "title_accent": "Eisernen Vorhang",
+    "description": "Erkunden Sie wichtige Orte des Kalten Krieges in Bulgarien — Denkmäler, Bunker, Grenzzonen und sozialistische Modellstädte.",
+    "active": "AKTIV",
+    "locations": "ORTE",
+    "classification": "▶ Klassifikation",
+    "select_location": "[ ORT AUSWÄHLEN ]",
+    "select_hint": "Klicken Sie auf einen Marker für Details",
+    "oblast": "Oblast",
+    "types": {
+      "capital": "Hauptstadt",
+      "city": "Große Städte",
+      "monument": "Denkmäler",
+      "brutalist": "Brutalistische Architektur",
+      "industrial": "Industriestandorte",
+      "border": "Grenzzonen",
+      "military": "Militär",
+      "model-city": "Modellstädte",
+      "camp": "Lager & Repression"
+    },
+    "sites": {
+      "sofia": {
+        "description": "Hauptstadt und Machtzentrum. Hier stehen der Largo-Komplex, der Nationale Kulturpalast (NDK) und das Denkmal der Sowjetarmee."
+      },
+      "plovdiv": {
+        "description": "Zweitgrößte Stadt des Landes. Bekannt für das Aljoscha-Denkmal, das vom Bunardschik-Hügel über die Stadt ragt."
+      },
+      "varna": {
+        "description": "Perle des Schwarzen Meeres. Standort des mächtigen Denkmals der bulgarisch-sowjetischen Freundschaft."
+      },
+      "burgas": {
+        "description": "Wichtiger Industriehafen im Kalten Krieg. Typische Stadtarchitektur der 1970er Jahre, nahe strategischer Raffinerien."
+      },
+      "veliko-tarnovo": {
+        "description": "Ehemalige mittelalterliche Hauptstadt und strategischer Ausgangspunkt für einen Besuch des Buzludscha-Denkmals."
+      },
+      "stara-zagora": {
+        "description": "Nach einem streng rechtwinkligen Raster wiederaufgebaute Stadt. Heimat des Denkmals für die Verteidiger von Stara Sagora."
+      },
+      "ruse": {
+        "description": "Das Kleine Wien, wichtigster Grenzübergang nach Rumänien über die Brücke der Freundschaft."
+      },
+      "dimitrovgrad": {
+        "description": "Die sozialistische Modellstadt Bulgariens, in den 1940er und 50er Jahren von Jugendbrigaden aus dem Nichts errichtet."
+      },
+      "pernik": {
+        "description": "Zentrum der Schwerindustrie und des Bergbaus. Typischer Kulturpalast."
+      },
+      "pleven": {
+        "description": "Bekannt für das Panorama „Epos von Plewen 1877“, 1977 von der UdSSR und Bulgarien errichtet."
+      },
+      "shumen": {
+        "description": "Standort des gewaltigen Denkmals für die Gründer des bulgarischen Staates (1300 Jahre)."
+      },
+      "sliven": {
+        "description": "Bekannt für seine Textilindustrie in sozialistischer Zeit."
+      },
+      "dobrich": {
+        "description": "Landwirtschaftliches Zentrum des Nordostens. Zentraler Platz im sowjetischen Stil."
+      },
+      "blagoevgrad": {
+        "description": "Universitätsstadt im Südwesten, nahe der griechischen und nordmazedonischen Grenze."
+      },
+      "kardzhali": {
+        "description": "Südliche Stadt am Kardschali-Stausee, einem großen Infrastrukturprojekt des Kalten Krieges."
+      },
+      "pazardzhik": {
+        "description": "Landwirtschaftliches und industrielles Zentrum mit typischen Fabriken der sozialistischen Ära."
+      },
+      "kyustendil": {
+        "description": "Kurort nahe der serbischen Grenze. Die Thermalbäder waren zu kommunistischer Zeit in Staatsbesitz."
+      },
+      "gabrovo": {
+        "description": "Industriezentrum, bekannt als das bulgarische Manchester. Herz der Textilproduktion."
+      },
+      "smolyan": {
+        "description": "Bergstadt, in den 1960er und 70er Jahren als sozialistische Modellstadt angelegt."
+      },
+      "lovech": {
+        "description": "Bekannt für die überdachte Brücke und die Nähe zur Dewetaschka-Höhle (Militärlager)."
+      },
+      "montana": {
+        "description": "Stadt im Nordwesten mit Bergbauerbe und typischer brutalistischer Architektur."
+      },
+      "vidin": {
+        "description": "Grenzstadt an der Donau. Strategische Lage während des Kalten Krieges."
+      },
+      "vratsa": {
+        "description": "Stadt am Fuß des Balkangebirges. Gedenkkomplex für die Helden der sozialistischen Ära."
+      },
+      "razgrad": {
+        "description": "Landwirtschaftliches und industrielles Zentrum im Nordosten Bulgariens."
+      },
+      "silistra": {
+        "description": "Donauhafenstadt an der rumänischen Grenze."
+      },
+      "targovishte": {
+        "description": "Zentrum der bulgarischen Tabakindustrie zu kommunistischer Zeit."
+      },
+      "yambol": {
+        "description": "Industriestadt im Südosten Bulgariens mit militärischen Einrichtungen."
+      },
+      "haskovo": {
+        "description": "Südliche Stadt nahe der türkischen und griechischen Grenze."
+      },
+      "bansko": {
+        "description": "Bergstadt im Pirin-Gebirge. Im Kalten Krieg wurde Bansko als staatlich kontrollierter Ski- und Tourismusort ausgebaut, zugänglich nur für zugelassene Bürger und ausländische Gäste."
+      },
+      "borovets": {
+        "description": "Ältester Bergkurort Bulgariens am Fuß des Rila-Gebirges. Unter dem Kommunismus war Borowez ein Prestigeort, der Parteifunktionären und ausgewählten Touristen vorbehalten war."
+      },
+      "belene": {
+        "description": "Arbeitslager auf der Donauinsel Persin. Betrieben von 1949 bis 1959, 1985 erneut geöffnet zur Internierung von Türken, die sich dem Wiedergeburtsprozess widersetzten."
+      },
+      "buzludzha": {
+        "description": "Denkmalhaus der Bulgarischen Kommunistischen Partei, 1981 auf dem Gipfel Buzludscha eingeweiht. Seit 1989 verlassen und heute eine Ruine."
+      }
+    }
+  },
+  "museum": {
+    "badge": "— Digitales Museum —",
+    "title": "Das",
+    "title_accent": "Archiv",
+    "description": "Eine kuratierte Sammlung von Artefakten, Dokumenten und Objekten aus dem Kalten Krieg in Bulgarien.",
+    "cataloguing": "Katalogisierung läuft",
+    "artifact_title": "Artefakt demnächst",
+    "artifact_source": "Cold War Bulgaria Sammlung",
+    "banner_title": "Sammlung wird katalogisiert",
+    "banner_desc": "Artefakte werden derzeit mit Tropy digitalisiert und katalogisiert. Die vollständige Sammlung wird bald verfügbar sein.",
+    "cat_all": "Alle"
+  },
+  "reconstructions": {
+    "badge": "LABOR — SYNTHETISCHE BILDER",
+    "title": "Rekonstruktionen",
+    "title_accent": "per KI",
+    "description": "Ein Experiment: was künstliche Intelligenz aus einer Epoche macht, ausgehend von echten Dokumenten.",
+    "notice_title": "Diese Bilder sind keine Archivdokumente",
+    "notice_body": "Alle Bilder in diesem Bereich wurden von künstlicher Intelligenz auf Grundlage zeitgenössischer Fotografien erzeugt. Sie dokumentieren nichts, sie bieten eine Deutung an. Dieser Bereich existiert, weil KI zu einem Werkzeug unserer Zeit geworden ist und es uns reizvoller schien, sie an historischem Material zu erproben, als sie zu ignorieren. Die authentischen Dokumente der Sammlung finden sich in den übrigen Bereichen der Website, wo kein einziges erzeugtes Bild veröffentlicht wird.",
+    "ai_badge": "KI-generiert",
+    "coming": "Demnächst",
+    "items": {
+      "street": {
+        "title": "Straße in Sofia",
+        "source": "Nach einer Fotografie der 1970er Jahre"
+      },
+      "interior": {
+        "title": "Wohnungsinneres",
+        "source": "Nach einer Fotografie der 1980er Jahre"
+      },
+      "factory": {
+        "title": "Industriestandort",
+        "source": "Nach einer Fotografie der 1960er Jahre"
+      },
+      "parade": {
+        "title": "Offizielle Parade",
+        "source": "Nach einer Fotografie der 1980er Jahre"
+      }
+    }
+  },
+  "media": {
+    "badge": "— Medien —",
+    "title": "Geschichten in",
+    "title_accent": "Bewegung",
+    "description": "Videodokumentationen, Archivmaterial und Podcasts, die den Kalten Krieg in Bulgarien lebendig machen.",
+    "doc_title": "Dokumentarserie",
+    "doc_desc": "Ausführliche Videodokumentationen über Schlüsselereignisse, Orte und Geschichten aus dem Kalten Krieg in Bulgarien.",
+    "doc_status": "In Produktion",
+    "footage_title": "Archivmaterial",
+    "footage_desc": "Seltenes Archivmaterial und Fotografien aus der kommunistischen Ära, aus Privatsammlungen geborgen und restauriert.",
+    "footage_status": "Demnächst",
+    "podcast_title": "Podcast",
+    "podcast_desc": "Audiointerviews, historische Analysen und Geschichten von Zeitzeugen des Kalten Krieges in Bulgarien.",
+    "podcast_status": "Demnächst",
+    "youtube_title": "Peoples Republic Of Bulgaria",
+    "youtube_desc": "180+ Videos — Geschichte, URBEX, Tourismus & Sammlung",
+    "youtube_cta": "Kanal besuchen"
+  },
+  "publications": {
+    "badge": "— Publikationen —",
+    "title": "Bücher &",
+    "title_accent": "Leitfäden",
+    "description": "E-Books, Feldführer und illustrierte Kataloge aus der Cold War Bulgaria Sammlung.",
+    "cover_coming": "Cover demnächst",
+    "pub1_type": "E-Book",
+    "pub1_title": "Cold War Bulgaria — Eine visuelle Geschichte",
+    "pub1_desc": "Ein umfassender visueller Leitfaden durch 45 Jahre kommunistisches Bulgarien. Fotos, Dokumente und Artefakte aus der privaten Sammlung.",
+    "pub1_status": "In Vorbereitung",
+    "pub2_type": "Urbex-Führe",
+    "pub2_title": "Verlassenes Bulgarien — Feldführer Bd.1",
+    "pub2_desc": "Ein praktischer Leitfaden zu den vergessenen Denkmälern, Bunkern und verlassenen Stätten des kommunistischen Bulgariens.",
+    "pub2_status": "Demnächst",
+    "pub3_type": "E-Book",
+    "pub3_title": "Die Objekte des Regimes",
+    "pub3_desc": "Ein illustrierter Katalog alltäglicher Objekte aus dem kommunistischen Bulgarien — von Propagandaplakaten bis zu Militärabzeichen.",
+    "pub3_status": "Demnächst",
+    "notify_title": "Bei Erscheinen benachrichtigt werden",
+    "notify_desc": "Folgen Sie dem Projekt, um als Erster über neue Publikationen informiert zu werden.",
+    "notify_cta": "Projekt folgen"
+  },
+  "partners": {
+    "badge": "— Partner & Mitarbeiter —",
+    "title": "Sie unterstützen das",
+    "title_accent": "Projekt",
+    "description": "Institutionen, Sammler und Kreative, die zur Bewahrung des Gedächtnisses des Kalten Krieges in Bulgarien beitragen.",
+    "become_partner": "Partner werden",
+    "coming_soon": "Demnächst"
+  },
+  "footer": {
+    "description": "Ein Online-Multimediamuseum, das das Alltagsleben, die Infrastruktur, die Propaganda und das Gedächtnis des Kalten Krieges in Bulgarien (1944–1989) dokumentiert.",
+    "explore": "Erkunden",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "mentions": "Impressum",
+    "gdpr": "DSGVO-Rechte",
+    "notice_title": "Hinweis",
+    "notice_text": "Diese Website wurde für kulturelle und historische Zwecke eingerichtet. Sie ist in keiner Weise ein Werkzeug einer politischen Ideologie."
+  },
+  "legal": {
+    "nav_privacy": "Datenschutzerklärung",
+    "nav_terms": "Nutzungsbedingungen",
+    "nav_cookies": "Cookie-Richtlinie",
+    "nav_mentions": "Impressum",
+    "nav_gdpr": "DSGVO-Rechte"
+  }
+}

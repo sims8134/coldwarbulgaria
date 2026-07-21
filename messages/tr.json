@@ -1,0 +1,365 @@
+{
+  "nav": {
+    "timeline": "Zaman Tüneli",
+    "themes": "Dosyalar",
+    "map": "Harita",
+    "museum": "Müze",
+    "media": "Medya",
+    "publications": "Yayınlar",
+    "reconstructions": "Yeniden Canlandırmalar"
+  },
+  "hero": {
+    "badge": "Tarihi Arşiv",
+    "title1": "Soğuk Savaş",
+    "title2": "Bulgaristan",
+    "description": "Demir Perde'nin arkasında 45 yıllık yaşamın sürükleyici yolculuğu.",
+    "cta_timeline": "Zaman Tünelini Keşfet",
+    "cta_museum": "Müzeye Gir",
+    "years": "Yıl",
+    "start": "Başlangıç",
+    "end": "Bitiş"
+  },
+  "timeline": {
+    "badge": "Tarihsel Genel Bakış",
+    "title": "45 Yıl Arkasında",
+    "title_accent": "Demir Perde",
+    "description": "1944'teki Sovyet destekli darbeden 1989'daki rejimin çöküşüne kadar Bulgaristan, SSCB'nin en sadık müttefiklerinden biri olarak kaldı.",
+    "quote": "Tarihi bilmeyenler onu tekrar yaşamaya mahkumdur",
+    "disclaimer": "Bu web sitesi kültürel ve tarihsel amaçlarla oluşturulmuştur. Hiçbir siyasi ideolojinin aracı değildir.",
+    "events": {
+      "coup1944": {
+        "title": "9 Eylül Darbesi",
+        "description": "Komünistlerin önderliğindeki partizanlar, İngiliz SOE tarafından silahlandırılıp SSCB'nin desteğiyle, Nazi Almanyası'yla müttefik kralcı hükümeti devirir. Kızıl Ordu üç gün önce Bulgaristan topraklarına girmişti."
+      },
+      "peoplesCourt": {
+        "title": "Halk Mahkemesi Yargılamaları",
+        "description": "Naipler, bakanlar ve milletvekilleri dahil 2.700'den fazla „savaş suçlusu\" ölüme mahkûm edildi."
+      },
+      "referendum": {
+        "title": "Cumhuriyet Referandumu",
+        "description": "Referandumun ardından Bulgaristan halk cumhuriyeti ilan edildi."
+      },
+      "dimitrovConstitution": {
+        "title": "Dimitrov Anayasası",
+        "description": "1971'e kadar yürürlükte kalan Georgi Dimitrov Anayasası kabul edildi."
+      },
+      "dimitrovDeath": {
+        "title": "Georgi Dimitrov'un Ölümü",
+        "description": "Dimitrov öldü ve naaşı Georgi Dimitrov Anıtmezarı'nda sergilendi."
+      },
+      "chervenkov": {
+        "title": "Çervenkov'un Yükselişi",
+        "description": "Vılko Çervenkov, Dimitrov'un yerine genel sekreter oldu ve 1954'e kadar görevde kaldı."
+      },
+      "zhivkovPower": {
+        "title": "Todor Jivkov İktidara Geliyor",
+        "description": "Jivkov komünist partinin başına geçti ve 35 yıl boyunca ülkeyi yönetti."
+      },
+      "warsawPact": {
+        "title": "Bulgaristan Varşova Paktı'na Katılıyor",
+        "description": "Bulgaristan, Sovyetler Birliği önderliğindeki askerî ittifakın kurucu üyesi oldu."
+      },
+      "aprilConspiracy": {
+        "title": "Nisan Komplosu",
+        "description": "Todor Jivkov'u devirmeye yönelik başarısız darbe girişimi ortaya çıkarıldı."
+      },
+      "czechoslovakia": {
+        "title": "Çekoslovakya'nın İşgali",
+        "description": "Bulgar birlikleri, Prag Baharı'nı ezen Varşova Paktı işgaline katıldı."
+      },
+      "zhivkovConstitution": {
+        "title": "Jivkov Anayasası",
+        "description": "Halk Cumhuriyeti'nin sonuna kadar yürürlükte kalan yeni anayasa."
+      },
+      "markov": {
+        "title": "Georgi Markov Suikastı",
+        "description": "Bulgar muhalif Georgi Markov, Bulgar gizli servislerinin talimatıyla Londra'da zehirli uçlu bir şemsiyeyle öldürüldü."
+      },
+      "cosmonaut": {
+        "title": "İlk Bulgar Kozmonot",
+        "description": "Georgi İvanov, Soyuz 33 göreviyle uzaya fırlatıldı."
+      },
+      "years1300": {
+        "title": "Bulgaristan'ın 1300. Yılı",
+        "description": "Sofya'daki devasa askerî geçit töreni, devletin 1300. yılını kutladı."
+      },
+      "buzludzha": {
+        "title": "Buzludja'nın Açılışı",
+        "description": "Bulgaristan Komünist Partisi'nin anıt binası açıldı."
+      },
+      "revivalProcess": {
+        "title": "Soya Dönüş Süreci Başlıyor",
+        "description": "Türk azınlığa yönelik zorla asimilasyon kampanyası başladı."
+      },
+      "greatExcursion": {
+        "title": "Büyük Gezi",
+        "description": "Yaklaşık 320.000 etnik Türk sınır dışı edildi ya da Bulgaristan'dan kaçtı."
+      },
+      "regimeFall": {
+        "title": "Rejimin Çöküşü",
+        "description": "Berlin Duvarı'nın yıkılmasından bir gün sonra Jivkov görevden alındı."
+      },
+      "endOfEra": {
+        "title": "Bir Dönemin Sonu",
+        "description": "Bulgaristan Halk Cumhuriyeti resmen sona erer, demokrasiye geçiş başlar."
+      }
+    }
+  },
+  "themes": {
+    "badge": "— Dosyalara göz atın —",
+    "title": "Bölünmüş bir Dünyadan",
+    "title_accent": "Hikayeler",
+    "description": "Her dosya, tek bir konu etrafında birkaç nesneyi, belgeyi ve fotoğrafı bir araya getirerek Demir Perde ardındaki hayatın bir yönünü anlatır.",
+    "coming_soon": "Yakında",
+    "daily_life_title": "Günlük Yaşam",
+    "daily_life_desc": "Sıradan Bulgarların sosyalizm altında nasıl yaşadığı — yiyecek kuyrukları, konut blokları, gençlik tugayları ve kontrollü bir toplumun ritmi.",
+    "youth_title": "Gençlik ve Eğitim",
+    "youth_desc": "Pionerler, Komsomol tugayları, devlet okulları ve bir sonraki neslin sistematik ideolojik oluşumu.",
+    "sports_title": "Spor ve Boş Zaman",
+    "sports_desc": "Olimpiyat madalyaları, devlet spor kulüpleri, organize tatiller ve sporun ulusal gurur aracı olarak kullanımı.",
+    "labor_title": "Çalışma ve Ekonomi",
+    "labor_desc": "Fabrikalar, kolektifleştirilmiş çiftlikler, beş yıllık planlar ve merkezi planlı sosyalist bir ekonominin nesneleri.",
+    "politics_title": "Siyasi Yaşam",
+    "politics_desc": "Komünist Parti, seçimler, ideoloji, törenler ve Bulgar siyasi yaşamını şekillendiren kişi kültü.",
+    "propaganda_title": "Propaganda ve Medya",
+    "propaganda_desc": "Devlet kontrolündeki gazeteler, radyo, televizyon, afişler ve her gün işbaşındaki ideolojik ikna makinesi.",
+    "tech_title": "Teknoloji ve Bilim",
+    "tech_desc": "Uzay endüstrisi, Sovyet bilişimi, telekomünikasyon ve sosyalist bir devletin teknolojik hırsları.",
+    "military_title": "Askeri ve Sivil Savunma",
+    "military_desc": "Bunkerler, nükleer sığınaklar, Varşova Paktı tatbikatları ve sürekli savaşa hazır bir ülkenin altyapısı.",
+    "surveillance_title": "Gözetim ve Devlet Güvenliği",
+    "surveillance_desc": "Darzhavna Sigurnost ve geniş muhbir ağı. Her altı Bulgarlıdan biri gizli polis tarafından izleniyordu.",
+    "borders_title": "Sınırlar ve Demir Perde",
+    "borders_desc": "Yasak bölgeler, elektrikli çitler, kontrol noktaları ve Bulgar sınırından umutsuz kaçış girişimleri.",
+    "documents_title": "Belgeler ve Basın",
+    "documents_desc": "Resmi belgeler, sansürlü gazeteler, devlet yayınları, arşivler ve komünist dönemden basılı materyaller."
+  },
+  "map": {
+    "badge": "— İnteraktif Harita —",
+    "title": "Demir Perde'nin",
+    "title_accent": "Arkasındaki Bulgaristan",
+    "description": "Soğuk Savaş Bulgaristanı'nın kilit konumlarını keşfedin — anıtlar, bunkerler, sınır bölgeleri ve model sosyalist şehirler.",
+    "active": "AKTİF",
+    "locations": "KONUM",
+    "classification": "▶ Sınıflandırma",
+    "select_location": "[ KONUM SEÇİN ]",
+    "select_hint": "Ayrıntılar için bir işaretçiye tıklayın",
+    "oblast": "Oblast",
+    "types": {
+      "capital": "Başkent",
+      "city": "Büyük Şehirler",
+      "monument": "Anıtlar",
+      "brutalist": "Brütalist Mimari",
+      "industrial": "Sanayi Alanları",
+      "border": "Sınır Bölgeleri",
+      "military": "Askerî",
+      "model-city": "Model Şehirler",
+      "camp": "Kamplar ve Baskı"
+    },
+    "sites": {
+      "sofia": {
+        "description": "Başkent ve iktidarın merkezi. Largo kompleksi, Ulusal Kültür Sarayı (NDK) ve Sovyet Ordusu Anıtı burada bulunur."
+      },
+      "plovdiv": {
+        "description": "Ülkenin ikinci büyük şehri. Bunarcık Tepesi'nden şehre hâkim Alyoşa anıtıyla tanınır."
+      },
+      "varna": {
+        "description": "Karadeniz'in incisi. Devasa Bulgar-Sovyet Dostluk Anıtı'nın bulunduğu yer."
+      },
+      "burgas": {
+        "description": "Soğuk Savaş döneminin kilit sanayi limanı. Tipik 1970'ler kent mimarisi ve stratejik rafinerilere yakınlık."
+      },
+      "veliko-tarnovo": {
+        "description": "Eski ortaçağ başkenti ve Buzludja Anıtı'nı ziyaret için stratejik üs."
+      },
+      "stara-zagora": {
+        "description": "Kusursuz bir ızgara plana göre yeniden inşa edilen şehir. Stara Zagora Savunucuları Anıtı buradadır."
+      },
+      "ruse": {
+        "description": "Küçük Viyana; Dostluk Köprüsü üzerinden Romanya'ya açılan başlıca sınır kapısı."
+      },
+      "dimitrovgrad": {
+        "description": "Bulgaristan'ın model sosyalist şehri, 1940'lar ve 50'lerde gençlik tugayları tarafından sıfırdan kuruldu."
+      },
+      "pernik": {
+        "description": "Ağır sanayi ve madenciliğin merkezi. Tipik bir Kültür Sarayı'na sahip."
+      },
+      "pleven": {
+        "description": "1977'de SSCB ve Bulgaristan tarafından yapılan Pleven Destanı 1877 Panoraması ile ünlü."
+      },
+      "shumen": {
+        "description": "Devasa Bulgar Devleti'nin Kurucuları Anıtı'nın (1300 yıl) bulunduğu şehir."
+      },
+      "sliven": {
+        "description": "Sosyalist dönemde tekstil sanayisiyle tanınırdı."
+      },
+      "dobrich": {
+        "description": "Kuzeydoğunun tarım merkezi. Sovyet tarzı merkez meydanı."
+      },
+      "blagoevgrad": {
+        "description": "Güneybatıda, Yunanistan ve Kuzey Makedonya sınırlarına yakın üniversite şehri."
+      },
+      "kardzhali": {
+        "description": "Soğuk Savaş'ın büyük altyapı projelerinden Kırcaali Barajı'na yakın güney şehri."
+      },
+      "pazardzhik": {
+        "description": "Sosyalist döneme özgü fabrikalarıyla tarım ve sanayi merkezi."
+      },
+      "kyustendil": {
+        "description": "Sırbistan sınırına yakın kaplıca şehri. Komünizm döneminde termal hamamlar devlet mülkiyetindeydi."
+      },
+      "gabrovo": {
+        "description": "Bulgar Manchester'ı olarak bilinen sanayi merkezi. Tekstil üretiminin kalbi."
+      },
+      "smolyan": {
+        "description": "1960'lar ve 70'lerde model sosyalist şehir olarak kurulan dağ şehri."
+      },
+      "lovech": {
+        "description": "Kapalı Köprü'sü ve Devetaşka Mağarası'na (askerî depo) yakınlığıyla ünlü."
+      },
+      "montana": {
+        "description": "Madencilik mirasına ve tipik brütalist mimariye sahip kuzeybatı şehri."
+      },
+      "vidin": {
+        "description": "Tuna kıyısında sınır şehri. Soğuk Savaş boyunca stratejik konum."
+      },
+      "vratsa": {
+        "description": "Balkan Dağları'nın eteğinde bir şehir. Sosyalist dönemin kahramanlarına adanmış anıt kompleksi."
+      },
+      "razgrad": {
+        "description": "Kuzeydoğu Bulgaristan'da tarım ve sanayi merkezi."
+      },
+      "silistra": {
+        "description": "Romanya sınırında Tuna liman şehri."
+      },
+      "targovishte": {
+        "description": "Komünizm döneminde Bulgar tütün sanayisinin merkezi."
+      },
+      "yambol": {
+        "description": "Güneydoğu Bulgaristan'da askerî tesisleri bulunan sanayi şehri."
+      },
+      "haskovo": {
+        "description": "Türkiye ve Yunanistan sınırlarına yakın güney şehri."
+      },
+      "bansko": {
+        "description": "Pirin Dağları'nda bir dağ kasabası. Soğuk Savaş sırasında Bansko, yalnızca onaylı vatandaşlara ve yabancı ziyaretçilere açık, devlet denetiminde bir kayak ve turizm merkezi olarak geliştirildi."
+      },
+      "borovets": {
+        "description": "Rila Dağı'nın eteğindeki en eski Bulgar dağ merkezi. Komünizm döneminde Borovets, parti yetkililerine ve onaylı turistlere ayrılmış prestijli bir tesisti."
+      },
+      "belene": {
+        "description": "Tuna'daki Persin Adası'nda çalışma kampı. 1949-1959 arasında faaliyet gösterdi, 1985'te Soya Dönüş Süreci'ne direnen Türkleri toplamak için yeniden açıldı."
+      },
+      "buzludzha": {
+        "description": "Bulgaristan Komünist Partisi'nin anıt binası, 1981'de Buzludja Zirvesi'nde açıldı. 1989'dan beri terk edilmiş ve bugün harap durumda."
+      }
+    }
+  },
+  "museum": {
+    "badge": "— Dijital Müze —",
+    "title": "",
+    "title_accent": "Arşiv",
+    "description": "Soğuk Savaş Bulgaristanı'ndan eserler, belgeler ve nesnelerden oluşan küratörlü bir koleksiyon. Koleksiyon kataloglanıyor.",
+    "cataloguing": "Kataloglama devam ediyor",
+    "artifact_title": "Eser Yakında",
+    "artifact_source": "Cold War Bulgaria Koleksiyonu",
+    "banner_title": "Koleksiyon kataloglanıyor",
+    "banner_desc": "Eserler şu anda Tropy ile dijitalleştiriliyor ve kataloglanıyor. Tam koleksiyon yakında kullanıma sunulacak.",
+    "cat_all": "Tümü"
+  },
+  "reconstructions": {
+    "badge": "LABORATUVAR — SENTETİK GÖRÜNTÜLER",
+    "title": "Yeniden Canlandırmalar",
+    "title_accent": "YZ ile",
+    "description": "Bir deney: yapay zekânın, gerçek belgelerden yola çıkarak bir dönemi nasıl gösterdiği.",
+    "notice_title": "Bu görüntüler arşiv belgesi değildir",
+    "notice_body": "Bu bölümdeki tüm görüntüler, döneme ait fotoğraflardan yola çıkılarak yapay zekâ tarafından üretilmiştir. Hiçbir şeyi belgelemezler; bir yorum sunarlar. Bu bölüm, yapay zekâ çağımızın bir aracı hâline geldiği ve onu görmezden gelmektense tarihsel malzeme üzerinde sınamak bize daha ilgi çekici geldiği için var. Koleksiyonun özgün belgeleri sitenin diğer bölümlerinde yer alır; orada hiçbir üretilmiş görüntü yayımlanmaz.",
+    "ai_badge": "Yapay zekâ üretimi",
+    "coming": "Yakında",
+    "items": {
+      "street": {
+        "title": "Sofya sokağı",
+        "source": "1970'lerden bir fotoğraftan"
+      },
+      "interior": {
+        "title": "Daire içi",
+        "source": "1980'lerden bir fotoğraftan"
+      },
+      "factory": {
+        "title": "Sanayi tesisi",
+        "source": "1960'lardan bir fotoğraftan"
+      },
+      "parade": {
+        "title": "Resmî geçit",
+        "source": "1980'lerden bir fotoğraftan"
+      }
+    }
+  },
+  "media": {
+    "badge": "— Medya —",
+    "title": "Hareket Halinde",
+    "title_accent": "Hikayeler",
+    "description": "Soğuk Savaş Bulgaristanı'nı hayata geçiren video belgeseller, arşiv görüntüleri ve podcast'ler.",
+    "doc_title": "Belgesel Dizi",
+    "doc_desc": "Soğuk Savaş Bulgaristanı'ndaki kilit olayları, yerleri ve hikayeleri araştıran derinlemesine video belgeseller.",
+    "doc_status": "Yapım aşamasında",
+    "footage_title": "Arşiv Görüntüleri",
+    "footage_desc": "Özel koleksiyonlardan temin edilen ve restore edilen komünist dönemden nadir arşiv görüntüleri ve fotoğraflar.",
+    "footage_status": "Yakında",
+    "podcast_title": "Podcast",
+    "podcast_desc": "Soğuk Savaş Bulgaristanı tanıklarından sesli röportajlar, tarihi analizler ve hikayeler.",
+    "podcast_status": "Yakında",
+    "youtube_title": "Peoples Republic Of Bulgaria",
+    "youtube_desc": "180+ video — Tarih, URBEX, Turizm ve Koleksiyon",
+    "youtube_cta": "Kanalı Ziyaret Et"
+  },
+  "publications": {
+    "badge": "— Yayınlar —",
+    "title": "Kitaplar ve",
+    "title_accent": "Rehberler",
+    "description": "Cold War Bulgaria koleksiyonundan e-kitaplar, saha rehberleri ve resimli kataloglar.",
+    "cover_coming": "Kapak yakında",
+    "pub1_type": "E-Kitap",
+    "pub1_title": "Cold War Bulgaria — Görsel Bir Tarih",
+    "pub1_desc": "45 yıllık komünist Bulgaristan'ı gösteren kapsamlı görsel bir rehber. Özel koleksiyondan fotoğraflar, belgeler ve eserler.",
+    "pub1_status": "Hazırlanıyor",
+    "pub2_type": "Urbex Rehberi",
+    "pub2_title": "Terk Edilmiş Bulgaristan — Saha Rehberi C.1",
+    "pub2_desc": "Komünist Bulgaristan'ın unutulmuş anıtlarına, bunkerlerine ve terk edilmiş alanlarına pratik bir rehber.",
+    "pub2_status": "Yakında",
+    "pub3_type": "E-Kitap",
+    "pub3_title": "Rejimin Nesneleri",
+    "pub3_desc": "Komünist Bulgaristan'dan günlük nesnelerin resimli kataloğu — propaganda afişlerinden askeri nişanlara.",
+    "pub3_status": "Yakında",
+    "notify_title": "Çıkışta bildirim al",
+    "notify_desc": "Yeni yayınlar mevcut olduğunda ilk öğrenen olmak için projeyi takip edin.",
+    "notify_cta": "Projeyi takip et"
+  },
+  "partners": {
+    "badge": "— Ortaklar ve İş Birlikçiler —",
+    "title": "Projeyi",
+    "title_accent": "Destekliyorlar",
+    "description": "Soğuk Savaş Bulgaristanı'nın hafızasını korumaya katkıda bulunan kurumlar, koleksiyoncular ve yaratıcılar.",
+    "become_partner": "Ortak Ol",
+    "coming_soon": "Yakında"
+  },
+  "footer": {
+    "description": "Bulgaristan'da Soğuk Savaş dönemindeki günlük yaşamı, altyapıyı, propagandayı ve hafızayı belgeleyen çevrimiçi bir multimedya müzesi (1944–1989).",
+    "explore": "Keşfet",
+    "legal": "Hukuki Bilgiler",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerez Politikası",
+    "mentions": "Yasal Uyarı",
+    "gdpr": "GDPR Hakları",
+    "notice_title": "Uyarı",
+    "notice_text": "Bu web sitesi kültürel ve tarihsel amaçlarla oluşturulmuştur. Hiçbir siyasi ideolojinin aracı değildir."
+  },
+  "legal": {
+    "nav_privacy": "Gizlilik Politikası",
+    "nav_terms": "Kullanım Koşulları",
+    "nav_cookies": "Çerez Politikası",
+    "nav_mentions": "Yasal Uyarı",
+    "nav_gdpr": "GDPR Hakları"
+  }
+}
