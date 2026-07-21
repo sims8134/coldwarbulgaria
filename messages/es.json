@@ -253,6 +253,14 @@
       "buzludzha": {
         "description": "Casa-monumento del Partido Comunista Búlgaro, inaugurada en 1981 en el pico Buzludzha. Abandonada desde 1989 y hoy en ruinas."
       }
+    },
+    "countries": {
+      "romania": "Rumanía",
+      "serbia": "Serbia",
+      "macedonia": "Macedonia",
+      "greece": "Grecia",
+      "turkey": "Turquía",
+      "blacksea": "Mar Negro"
     }
   },
   "museum": {
@@ -317,23 +325,17 @@
     "badge": "— Publicaciones —",
     "title": "Libros y",
     "title_accent": "Guías",
-    "description": "E-books, guías de campo y catálogos ilustrados de la colección Cold War Bulgaria.",
-    "cover_coming": "Portada próximamente",
-    "pub1_type": "E-Book",
-    "pub1_title": "Cold War Bulgaria — Una historia visual",
-    "pub1_desc": "Una guía visual completa de 45 años de Bulgaria comunista. Fotografías, documentos y artefactos de la colección privada.",
-    "pub1_status": "En preparación",
-    "pub2_type": "Guía Urbex",
-    "pub2_title": "Bulgaria abandonada — Guía de campo Vol.1",
-    "pub2_desc": "Una guía práctica de los monumentos olvidados, búnkeres y sitios abandonados de la Bulgaria comunista.",
-    "pub2_status": "Próximamente",
-    "pub3_type": "E-Book",
-    "pub3_title": "Los objetos del régimen",
-    "pub3_desc": "Un catálogo ilustrado de objetos cotidianos de la Bulgaria comunista — de carteles de propaganda a insignias militares.",
-    "pub3_status": "Próximamente",
-    "notify_title": "Ser notificado al lanzamiento",
-    "notify_desc": "Sigue el proyecto para ser el primero en saber cuándo hay nuevas publicaciones disponibles.",
-    "notify_cta": "Seguir el proyecto"
+    "description": "Dos obras de descarga libre, surgidas de la colección y del trabajo de campo.",
+    "pub1_type": "Catálogo",
+    "pub2_type": "Libro",
+    "pub1_title": "Cold War Bulgaria — Catálogo de la colección",
+    "pub1_desc": "280 piezas de la colección, adquiridas entre 2023 y 2025. Cada objeto lleva su ficha, del banderín deportivo al documento oficial: un inventario ilustrado de la vida material en la República Popular de Bulgaria.",
+    "pub1_langs": "Fichas en inglés, búlgaro y francés",
+    "pub2_title": "Los secretos de la colina de Reduta",
+    "pub2_desc": "Casi tres años de investigación sobre una discreta colina de Sofía: dominación otomana, guerras mundiales, Guerra Fría. Testimonios, archivos y un reportaje fotográfico, en un relato patrimonial y sin tomar partido.",
+    "pub2_langs": "Disponible en francés, búlgaro e inglés",
+    "download": "Descargar PDF",
+    "pages": "{count} páginas"
   },
   "partners": {
     "badge": "— Socios y colaboradores —",

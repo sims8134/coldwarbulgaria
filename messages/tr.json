@@ -253,6 +253,14 @@
       "buzludzha": {
         "description": "Bulgaristan Komünist Partisi'nin anıt binası, 1981'de Buzludja Zirvesi'nde açıldı. 1989'dan beri terk edilmiş ve bugün harap durumda."
       }
+    },
+    "countries": {
+      "romania": "Romanya",
+      "serbia": "Sırbistan",
+      "macedonia": "Makedonya",
+      "greece": "Yunanistan",
+      "turkey": "Türkiye",
+      "blacksea": "Karadeniz"
     }
   },
   "museum": {
@@ -317,23 +325,17 @@
     "badge": "— Yayınlar —",
     "title": "Kitaplar ve",
     "title_accent": "Rehberler",
-    "description": "Cold War Bulgaria koleksiyonundan e-kitaplar, saha rehberleri ve resimli kataloglar.",
-    "cover_coming": "Kapak yakında",
-    "pub1_type": "E-Kitap",
-    "pub1_title": "Cold War Bulgaria — Görsel Bir Tarih",
-    "pub1_desc": "45 yıllık komünist Bulgaristan'ı gösteren kapsamlı görsel bir rehber. Özel koleksiyondan fotoğraflar, belgeler ve eserler.",
-    "pub1_status": "Hazırlanıyor",
-    "pub2_type": "Urbex Rehberi",
-    "pub2_title": "Terk Edilmiş Bulgaristan — Saha Rehberi C.1",
-    "pub2_desc": "Komünist Bulgaristan'ın unutulmuş anıtlarına, bunkerlerine ve terk edilmiş alanlarına pratik bir rehber.",
-    "pub2_status": "Yakında",
-    "pub3_type": "E-Kitap",
-    "pub3_title": "Rejimin Nesneleri",
-    "pub3_desc": "Komünist Bulgaristan'dan günlük nesnelerin resimli kataloğu — propaganda afişlerinden askeri nişanlara.",
-    "pub3_status": "Yakında",
-    "notify_title": "Çıkışta bildirim al",
-    "notify_desc": "Yeni yayınlar mevcut olduğunda ilk öğrenen olmak için projeyi takip edin.",
-    "notify_cta": "Projeyi takip et"
+    "description": "Koleksiyondan ve saha araştırmasından doğan, serbestçe indirilebilir iki çalışma.",
+    "pub1_type": "Katalog",
+    "pub2_type": "Kitap",
+    "pub1_title": "Cold War Bulgaria — Koleksiyon Kataloğu",
+    "pub1_desc": "2023-2025 arasında edinilmiş 280 koleksiyon parçası. Spor flamasından resmî belgeye, her nesne kendi künyesiyle: Bulgaristan Halk Cumhuriyeti'nin maddi hayatının resimli envanteri.",
+    "pub1_langs": "Künyeler İngilizce, Bulgarca ve Fransızca",
+    "pub2_title": "Reduta Tepesi'nin Sırları",
+    "pub2_desc": "Sofya'nın gösterişsiz bir tepesi üzerine üç yıla yakın araştırma: Osmanlı dönemi, dünya savaşları, Soğuk Savaş. Tanıklıklar, arşivler ve bir fotoröportaj; taraf tutmayan, mirasa odaklı bir anlatı.",
+    "pub2_langs": "Fransızca, Bulgarca ve İngilizce olarak mevcut",
+    "download": "PDF indir",
+    "pages": "{count} sayfa"
   },
   "partners": {
     "badge": "— Ortaklar ve İş Birlikçiler —",

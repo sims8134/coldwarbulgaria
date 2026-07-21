@@ -253,6 +253,14 @@
       "buzludzha": {
         "description": "Denkmalhaus der Bulgarischen Kommunistischen Partei, 1981 auf dem Gipfel Buzludscha eingeweiht. Seit 1989 verlassen und heute eine Ruine."
       }
+    },
+    "countries": {
+      "romania": "Rumänien",
+      "serbia": "Serbien",
+      "macedonia": "Mazedonien",
+      "greece": "Griechenland",
+      "turkey": "Türkei",
+      "blacksea": "Schwarzes Meer"
     }
   },
   "museum": {
@@ -316,24 +324,18 @@
   "publications": {
     "badge": "— Publikationen —",
     "title": "Bücher &",
-    "title_accent": "Leitfäden",
-    "description": "E-Books, Feldführer und illustrierte Kataloge aus der Cold War Bulgaria Sammlung.",
-    "cover_coming": "Cover demnächst",
-    "pub1_type": "E-Book",
-    "pub1_title": "Cold War Bulgaria — Eine visuelle Geschichte",
-    "pub1_desc": "Ein umfassender visueller Leitfaden durch 45 Jahre kommunistisches Bulgarien. Fotos, Dokumente und Artefakte aus der privaten Sammlung.",
-    "pub1_status": "In Vorbereitung",
-    "pub2_type": "Urbex-Führe",
-    "pub2_title": "Verlassenes Bulgarien — Feldführer Bd.1",
-    "pub2_desc": "Ein praktischer Leitfaden zu den vergessenen Denkmälern, Bunkern und verlassenen Stätten des kommunistischen Bulgariens.",
-    "pub2_status": "Demnächst",
-    "pub3_type": "E-Book",
-    "pub3_title": "Die Objekte des Regimes",
-    "pub3_desc": "Ein illustrierter Katalog alltäglicher Objekte aus dem kommunistischen Bulgarien — von Propagandaplakaten bis zu Militärabzeichen.",
-    "pub3_status": "Demnächst",
-    "notify_title": "Bei Erscheinen benachrichtigt werden",
-    "notify_desc": "Folgen Sie dem Projekt, um als Erster über neue Publikationen informiert zu werden.",
-    "notify_cta": "Projekt folgen"
+    "title_accent": "Führer",
+    "description": "Zwei frei herunterladbare Werke, aus der Sammlung und aus der Feldforschung entstanden.",
+    "pub1_type": "Katalog",
+    "pub2_type": "Buch",
+    "pub1_title": "Cold War Bulgaria — Sammlungskatalog",
+    "pub1_desc": "280 Objekte der Sammlung, zwischen 2023 und 2025 erworben. Jedes Stück mit eigenem Eintrag, vom Sportwimpel bis zum amtlichen Dokument: ein bebildertes Inventar des materiellen Lebens in der Volksrepublik Bulgarien.",
+    "pub1_langs": "Einträge auf Englisch, Bulgarisch und Französisch",
+    "pub2_title": "Die Geheimnisse des Reduta-Hügels",
+    "pub2_desc": "Fast drei Jahre Recherche über einen unscheinbaren Hügel in Sofia: osmanische Herrschaft, Weltkriege, Kalter Krieg. Zeitzeugnisse, Archivalien und eine Fotoreportage — ein denkmalkundlicher Bericht ohne Parteinahme.",
+    "pub2_langs": "Erhältlich auf Französisch, Bulgarisch und Englisch",
+    "download": "PDF herunterladen",
+    "pages": "{count} Seiten"
   },
   "partners": {
     "badge": "— Partner & Mitarbeiter —",

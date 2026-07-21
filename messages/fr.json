@@ -253,6 +253,14 @@
       "buzludzha": {
         "description": "Maison-monument du Parti communiste bulgare, inaugurée en 1981 au sommet du pic Bouzloudja. Abandonnée depuis 1989 et aujourd'hui en ruine."
       }
+    },
+    "countries": {
+      "romania": "Roumanie",
+      "serbia": "Serbie",
+      "macedonia": "Macédoine",
+      "greece": "Grèce",
+      "turkey": "Turquie",
+      "blacksea": "Mer Noire"
     }
   },
   "museum": {
@@ -317,23 +325,17 @@
     "badge": "— Publications —",
     "title": "Livres &",
     "title_accent": "Guides",
-    "description": "E-books, guides de terrain et catalogues illustrés de la collection Cold War Bulgaria.",
-    "cover_coming": "Couverture à venir",
-    "pub1_type": "E-Book",
-    "pub1_title": "Cold War Bulgaria — Une histoire visuelle",
-    "pub1_desc": "Un guide visuel complet à travers 45 ans de Bulgarie communiste. Photographies, documents et artefacts de la collection privée.",
-    "pub1_status": "En préparation",
-    "pub2_type": "Guide Urbex",
-    "pub2_title": "Bulgarie abandonnée — Guide de terrain Vol.1",
-    "pub2_desc": "Un guide pratique des monuments oubliés, bunkers et sites abandonnés de la Bulgarie communiste. Lieux, histoire et conseils photo.",
-    "pub2_status": "Bientôt disponible",
-    "pub3_type": "E-Book",
-    "pub3_title": "Les objets du régime",
-    "pub3_desc": "Un catalogue illustré d'objets du quotidien de la Bulgarie communiste — des affiches de propagande aux insignes militaires.",
-    "pub3_status": "Bientôt disponible",
-    "notify_title": "Être notifié à la sortie",
-    "notify_desc": "Suivez le projet pour être le premier informé des nouvelles publications.",
-    "notify_cta": "Suivre le projet"
+    "description": "Deux ouvrages en téléchargement libre, issus de la collection et des recherches menées sur le terrain.",
+    "pub1_type": "Catalogue",
+    "pub2_type": "Livre",
+    "pub1_title": "Cold War Bulgaria — Catalogue de collection",
+    "pub1_desc": "280 pièces de la collection, acquises entre 2023 et 2025. Chaque objet est présenté avec sa notice, du drapeau sportif au document officiel : un inventaire illustré de la vie matérielle de la République populaire de Bulgarie.",
+    "pub1_langs": "Notices en anglais, bulgare et français",
+    "pub2_title": "Les Secrets de la Colline de Reduta",
+    "pub2_desc": "Près de trois ans de recherches sur une colline discrète de Sofia : occupation ottomane, guerres mondiales, Guerre froide. Témoignages, archives et reportage photographique, dans une démarche patrimoniale et sans parti pris.",
+    "pub2_langs": "Disponible en français, bulgare et anglais",
+    "download": "Télécharger le PDF",
+    "pages": "{count} pages"
   },
   "partners": {
     "badge": "— Partenaires & Collaborateurs —",

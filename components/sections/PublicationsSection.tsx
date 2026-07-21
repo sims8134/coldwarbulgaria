@@ -1,14 +1,43 @@
 'use client'
-import { BookOpen, Map, ArrowRight } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { Download } from 'lucide-react'
+import { useTranslations, useLocale } from 'next-intl'
+
+/** Langues dans lesquelles « Les Secrets de la Colline de Reduta » existe. */
+const REDUTA_LANGS = ['fr', 'bg', 'en'] as const
+type RedutaLang = (typeof REDUTA_LANGS)[number]
 
 export default function PublicationsSection() {
   const t = useTranslations('publications')
+  const locale = useLocale()
+
+  // Repli sur l'anglais pour les sept autres langues du site.
+  const redutaLang: RedutaLang = (REDUTA_LANGS as readonly string[]).includes(locale)
+    ? (locale as RedutaLang)
+    : 'en'
 
   const publications = [
-    { icon: BookOpen, typeKey: 'pub1_type', titleKey: 'pub1_title', descKey: 'pub1_desc', statusKey: 'pub1_status', year: '2025' },
-    { icon: Map,      typeKey: 'pub2_type', titleKey: 'pub2_title', descKey: 'pub2_desc', statusKey: 'pub2_status', year: '2025' },
-    { icon: BookOpen, typeKey: 'pub3_type', titleKey: 'pub3_title', descKey: 'pub3_desc', statusKey: 'pub3_status', year: '2026' },
+    {
+      id: 'catalogue',
+      titleKey: 'pub1_title',
+      descKey: 'pub1_desc',
+      typeKey: 'pub1_type',
+      year: '2025',
+      pages: 280,
+      cover: '/publications/cover-catalogue.webp',
+      file: '/publications/collection-catalogue.pdf',
+      langNote: t('pub1_langs'),
+    },
+    {
+      id: 'reduta',
+      titleKey: 'pub2_title',
+      descKey: 'pub2_desc',
+      typeKey: 'pub2_type',
+      year: '2025',
+      pages: 45,
+      cover: `/publications/cover-reduta-${redutaLang}.jpg`,
+      file: `/publications/reduta-${redutaLang}.pdf`,
+      langNote: t('pub2_langs'),
+    },
   ]
 
   return (
@@ -17,7 +46,7 @@ export default function PublicationsSection() {
 
       <div style={{position: 'relative', zIndex: 1, width: '100%', maxWidth: '1280px', margin: '0 auto', padding: '0 24px'}}>
 
-        <div style={{marginBottom: '80px'}}>
+        <div style={{marginBottom: '64px'}}>
           <span style={{color: '#e63946', fontSize: '12px', fontFamily: 'monospace', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.1em'}}>
             {t('badge')}
           </span>
@@ -29,53 +58,50 @@ export default function PublicationsSection() {
           </p>
         </div>
 
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', marginBottom: '64px'}}>
-          {publications.map(({icon: Icon, typeKey, titleKey, descKey, statusKey, year}) => (
-            <div key={titleKey} style={{background: 'rgba(17,17,20,0.8)', border: '1px solid #1f2937', overflow: 'hidden'}}>
-              <div style={{width: '100%', aspectRatio: '16/9', background: 'rgba(230,57,70,0.03)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '12px', borderBottom: '1px solid #1f2937', position: 'relative'}}>
-                <Icon size={32} style={{color: '#1f2937'}} />
-                <span style={{color: '#1f2937', fontSize: '10px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em'}}>
-                  {t('cover_coming')}
-                </span>
-                <div style={{position: 'absolute', top: '12px', left: '12px', background: 'rgba(230,57,70,0.1)', border: '1px solid rgba(230,57,70,0.3)', padding: '4px 10px'}}>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '32px'}}>
+          {publications.map((pub) => (
+            <div key={pub.id} style={{display: 'flex', gap: '24px', background: 'rgba(17,17,20,0.8)', border: '1px solid #1f2937', padding: '24px', flexWrap: 'wrap'}}>
+
+              <div style={{flexShrink: 0, width: '150px'}}>
+                <img
+                  src={pub.cover}
+                  alt={t(pub.titleKey)}
+                  style={{width: '100%', height: 'auto', display: 'block', border: '1px solid #1f2937'}}
+                />
+              </div>
+
+              <div style={{flex: 1, minWidth: '200px', display: 'flex', flexDirection: 'column'}}>
+                <div style={{display: 'inline-flex', alignSelf: 'flex-start', background: 'rgba(230,57,70,0.1)', border: '1px solid rgba(230,57,70,0.3)', padding: '3px 9px', marginBottom: '12px'}}>
                   <span style={{color: '#e63946', fontSize: '10px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em'}}>
-                    {t(typeKey)}
+                    {t(pub.typeKey)}
                   </span>
                 </div>
-                <div style={{position: 'absolute', top: '12px', right: '12px'}}>
-                  <span style={{color: '#374151', fontSize: '10px', fontFamily: 'monospace', fontStyle: 'italic'}}>
-                    {t(statusKey)}
-                  </span>
-                </div>
-              </div>
-              <div style={{padding: '24px'}}>
-                <p style={{color: '#4b5563', fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em', margin: '0 0 8px 0'}}>
-                  {year}
-                </p>
-                <h3 style={{color: 'white', fontSize: '16px', fontWeight: 'bold', margin: '0 0 12px 0', lineHeight: '1.4'}}>
-                  {t(titleKey)}
+
+                <h3 style={{color: 'white', fontSize: '17px', fontWeight: 'bold', margin: '0 0 10px 0', lineHeight: '1.4'}}>
+                  {t(pub.titleKey)}
                 </h3>
-                <p style={{color: '#9ca3af', fontSize: '13px', lineHeight: '1.6', margin: 0}}>
-                  {t(descKey)}
+
+                <p style={{color: '#9ca3af', fontSize: '13px', lineHeight: '1.65', margin: '0 0 16px 0'}}>
+                  {t(pub.descKey)}
                 </p>
+
+                <p style={{color: '#4b5563', fontSize: '11px', fontFamily: 'monospace', margin: '0 0 20px 0', lineHeight: '1.7'}}>
+                  {pub.year} · {t('pages', {count: pub.pages})}<br/>
+                  {pub.langNote}
+                </p>
+
+                <a
+                  href={pub.file}
+                  download
+                  style={{marginTop: 'auto', alignSelf: 'flex-start', display: 'flex', alignItems: 'center', gap: '8px', border: '1px solid #e63946', color: '#e63946', padding: '10px 20px', fontSize: '12px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em', textDecoration: 'none', whiteSpace: 'nowrap'}}
+                >
+                  <Download size={14} />
+                  {t('download')}
+                </a>
               </div>
+
             </div>
           ))}
-        </div>
-
-        <div style={{padding: '32px', border: '1px solid #1f2937', borderLeft: '3px solid #e63946', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px'}}>
-          <div>
-            <p style={{color: 'white', fontSize: '16px', fontWeight: 'bold', margin: '0 0 4px 0'}}>
-              {t('notify_title')}
-            </p>
-            <p style={{color: '#6b7280', fontSize: '13px', margin: 0}}>
-              {t('notify_desc')}
-            </p>
-          </div>
-          <a href="https://www.youtube.com/@PeoplesRepublicOfBulgaria1505" target="_blank" rel="noopener noreferrer"
-            style={{display: 'flex', alignItems: 'center', gap: '8px', border: '1px solid #e63946', color: '#e63946', padding: '10px 20px', fontSize: '12px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em', textDecoration: 'none', whiteSpace: 'nowrap'}}>
-            {t('notify_cta')} <ArrowRight size={14} />
-          </a>
         </div>
 
       </div>

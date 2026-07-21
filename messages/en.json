@@ -253,6 +253,14 @@
       "buzludzha": {
         "description": "Monument house of the Bulgarian Communist Party, opened in 1981 on Buzludzha Peak. Abandoned since 1989 and now derelict."
       }
+    },
+    "countries": {
+      "romania": "Romania",
+      "serbia": "Serbia",
+      "macedonia": "Macedonia",
+      "greece": "Greece",
+      "turkey": "Turkey",
+      "blacksea": "Black Sea"
     }
   },
   "museum": {
@@ -317,23 +325,17 @@
     "badge": "— Publications —",
     "title": "Books &",
     "title_accent": "Guides",
-    "description": "E-books, field guides and illustrated catalogues from the Cold War Bulgaria collection.",
-    "cover_coming": "Cover coming soon",
-    "pub1_type": "E-Book",
-    "pub1_title": "Cold War Bulgaria — A Visual History",
-    "pub1_desc": "A comprehensive visual guide through 45 years of communist Bulgaria. Photographs, documents and artifacts from the private Cold War Bulgaria collection.",
-    "pub1_status": "In preparation",
-    "pub2_type": "Urbex Guide",
-    "pub2_title": "Abandoned Bulgaria — Field Guide Vol.1",
-    "pub2_desc": "A practical guide to the forgotten monuments, bunkers and abandoned sites of communist-era Bulgaria. Locations, history and photography tips.",
-    "pub2_status": "Coming soon",
-    "pub3_type": "E-Book",
-    "pub3_title": "The Objects of the Regime",
-    "pub3_desc": "An illustrated catalogue of everyday objects from communist Bulgaria — from propaganda posters to military insignia and domestic artifacts.",
-    "pub3_status": "Coming soon",
-    "notify_title": "Be notified on release",
-    "notify_desc": "Follow the project to be the first to know when new publications are available.",
-    "notify_cta": "Follow the project"
+    "description": "Two freely downloadable works, drawn from the collection and from fieldwork.",
+    "pub1_type": "Catalogue",
+    "pub2_type": "Book",
+    "pub1_title": "Cold War Bulgaria — Collection Catalogue",
+    "pub1_desc": "280 items from the collection, acquired between 2023 and 2025. Each object carries its own entry, from sports pennants to official papers: an illustrated inventory of material life in the People's Republic of Bulgaria.",
+    "pub1_langs": "Entries in English, Bulgarian and French",
+    "pub2_title": "The Secrets of the Reduta Hill",
+    "pub2_desc": "Nearly three years of research into an unassuming Sofia hill: Ottoman occupation, the world wars, the Cold War. Testimony, archives and a photographic survey, in a heritage-minded account that takes no side.",
+    "pub2_langs": "Available in French, Bulgarian and English",
+    "download": "Download PDF",
+    "pages": "{count} pages"
   },
   "partners": {
     "badge": "— Partners & Collaborators —",
