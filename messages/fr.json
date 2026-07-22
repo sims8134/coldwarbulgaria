@@ -302,25 +302,59 @@
       "cafe": "Café de quartier",
       "computers": "Salle d'informatique"
     },
-    "after_photo": "Inspiré de documents d'époque, années {decade}"
+    "after_photo": "Inspiré d'images des années {decade}"
   },
   "media": {
-    "badge": "— Médias —",
+    "badge": "— Podcasts —",
     "title": "Histoires en",
     "title_accent": "mouvement",
-    "description": "Documentaires vidéo, images d'archives et podcasts donnant vie à la Bulgarie de la Guerre froide.",
-    "doc_title": "Série documentaire",
-    "doc_desc": "Documentaires vidéo approfondis explorant les événements clés, les lieux et les histoires de la Bulgarie de la Guerre froide.",
-    "doc_status": "En production",
-    "footage_title": "Images d'archives",
-    "footage_desc": "Rares images d'archives et photographies de l'ère communiste, trouvées et restaurées depuis des collections privées.",
-    "footage_status": "Bientôt disponible",
-    "podcast_title": "Podcast",
-    "podcast_desc": "Interviews audio, analyses historiques et témoignages de la Bulgarie de la Guerre froide.",
-    "podcast_status": "Bientôt disponible",
-    "youtube_title": "Peoples Republic Of Bulgaria",
-    "youtube_desc": "180+ vidéos — Histoire, URBEX, Tourisme & Collection",
-    "youtube_cta": "Visiter la chaîne"
+    "description": "Neuf épisodes sur la Bulgarie de la Guerre froide, de 1944 à la fin du régime, et un bonus sur la collection aujourd'hui.",
+    "notice_title": "Version bêta, produite avec l'aide de l'IA",
+    "notice_body": "La voix et le montage de ces épisodes sont générés par intelligence artificielle. Le choix des sujets, l'angle et les sources sont de mon fait. Comme pour tout contenu produit avec l'aide de l'IA, certains détails méritent d'être vérifiés. Version bêta, disponible en français uniquement pour le moment.",
+    "no_audio": "Votre navigateur ne peut pas lire ce fichier audio.",
+    "episodes": {
+      "origins": {
+        "title": "Les origines : la Bulgarie en 1944",
+        "desc": "Comment le royaume de Bulgarie, allié de l'Axe, passe sous contrôle soviétique en quelques semaines. Bombardements alliés, entrée de l'Armée rouge, effondrement du régime."
+      },
+      "coup": {
+        "title": "Le coup d'État du 9 septembre 1944",
+        "desc": "Le renversement du gouvernement royal par le Front de la Patrie. Le rôle des partisans, celui de l'Armée rouge, et la mise en place du nouveau pouvoir."
+      },
+      "terror": {
+        "title": "Vulko Tchervenkov, le Petit Staline bulgare",
+        "desc": "La période la plus dure du régime : procès politiques, camps, collectivisation forcée. Le stalinisme bulgare de 1950 à 1956."
+      },
+      "spearhead": {
+        "title": "La Bulgarie, fer de lance du bloc soviétique",
+        "desc": "L'alignement sur Moscou : pacte de Varsovie, CAEM, et l'intégration militaire au bloc de l'Est."
+      },
+      "zealous": {
+        "title": "Plus zélé que Moscou",
+        "desc": "Pourquoi la Bulgarie passait pour l'allié le plus docile de l'URSS, et ce que cette réputation recouvrait réellement."
+      },
+      "economy": {
+        "title": "Le prix de la loyauté",
+        "desc": "Le versant économique de l'alliance : subventions soviétiques, pétrole à prix préférentiel, et ce que la Bulgarie y gagnait."
+      },
+      "security": {
+        "title": "La Sûreté d'État et l'affaire Markov",
+        "desc": "La Darjavna Sigurnost, ses liens avec le KGB, son réseau d'informateurs. L'assassinat de Georgi Markov à Londres en 1978."
+      },
+      "traffic": {
+        "title": "Renseignement et trafics",
+        "desc": "Les activités clandestines des services bulgares hors des frontières : armes, contrebande, opérations à l'étranger."
+      },
+      "republic": {
+        "title": "Une seizième république soviétique ?",
+        "desc": "Les demandes répétées de rattachement à l'URSS, des années 1960 aux années 1970. Un épisode peu connu des relations bulgaro-soviétiques."
+      },
+      "surplus": {
+        "title": "Le marché du surplus aujourd'hui",
+        "desc": "Où et comment circulent encore les objets de la Bulgarie communiste : brocantes, surplus militaires, collectionneurs. Un épisode sur le présent plutôt que sur l'histoire."
+      }
+    },
+    "bonus": "Bonus"
   },
   "publications": {
     "badge": "— Publications —",

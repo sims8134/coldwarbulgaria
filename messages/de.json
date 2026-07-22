@@ -302,25 +302,59 @@
       "cafe": "Café im Viertel",
       "computers": "Informatikraum"
     },
-    "after_photo": "Angeregt durch zeitgenössische Dokumente, {decade}er Jahre"
+    "after_photo": "Inspiriert von Bildern der {decade}er Jahre"
   },
   "media": {
-    "badge": "— Medien —",
+    "badge": "— Podcasts —",
     "title": "Geschichten in",
     "title_accent": "Bewegung",
-    "description": "Videodokumentationen, Archivmaterial und Podcasts, die den Kalten Krieg in Bulgarien lebendig machen.",
-    "doc_title": "Dokumentarserie",
-    "doc_desc": "Ausführliche Videodokumentationen über Schlüsselereignisse, Orte und Geschichten aus dem Kalten Krieg in Bulgarien.",
-    "doc_status": "In Produktion",
-    "footage_title": "Archivmaterial",
-    "footage_desc": "Seltenes Archivmaterial und Fotografien aus der kommunistischen Ära, aus Privatsammlungen geborgen und restauriert.",
-    "footage_status": "Demnächst",
-    "podcast_title": "Podcast",
-    "podcast_desc": "Audiointerviews, historische Analysen und Geschichten von Zeitzeugen des Kalten Krieges in Bulgarien.",
-    "podcast_status": "Demnächst",
-    "youtube_title": "Peoples Republic Of Bulgaria",
-    "youtube_desc": "180+ Videos — Geschichte, URBEX, Tourismus & Sammlung",
-    "youtube_cta": "Kanal besuchen"
+    "description": "Neun Folgen über Bulgarien im Kalten Krieg, von 1944 bis zum Ende des Regimes, dazu ein Bonus über das Sammeln heute.",
+    "notice_title": "Betaversion, mit KI-Unterstützung erstellt",
+    "notice_body": "Stimme und Schnitt dieser Folgen sind von künstlicher Intelligenz erzeugt. Themenwahl, Blickwinkel und Quellen stammen von mir. Wie bei allen KI-gestützten Inhalten sollten einzelne Angaben überprüft werden. Betaversion, derzeit nur auf Französisch verfügbar.",
+    "no_audio": "Ihr Browser kann diese Audiodatei nicht abspielen.",
+    "episodes": {
+      "origins": {
+        "title": "Die Anfänge: Bulgarien 1944",
+        "desc": "Wie das mit der Achse verbündete Königreich Bulgarien binnen Wochen unter sowjetische Kontrolle geriet. Alliierte Bombardierungen, Einmarsch der Roten Armee, Zusammenbruch des Regimes."
+      },
+      "coup": {
+        "title": "Der Umsturz vom 9. September 1944",
+        "desc": "Der Sturz der königlichen Regierung durch die Vaterländische Front. Die Rolle der Partisanen, jene der Roten Armee und der Aufbau der neuen Macht."
+      },
+      "terror": {
+        "title": "Walko Tschervenkow, Bulgariens Kleiner Stalin",
+        "desc": "Die härtesten Jahre des Regimes: politische Prozesse, Lager, Zwangskollektivierung. Der bulgarische Stalinismus von 1950 bis 1956."
+      },
+      "spearhead": {
+        "title": "Bulgarien, Speerspitze des Ostblocks",
+        "desc": "Die Ausrichtung auf Moskau: Warschauer Pakt, RGW und die militärische Einbindung in den Ostblock."
+      },
+      "zealous": {
+        "title": "Eifriger als Moskau",
+        "desc": "Warum Bulgarien als fügsamster Verbündeter der UdSSR galt und was hinter diesem Ruf tatsächlich stand."
+      },
+      "economy": {
+        "title": "Der Preis der Treue",
+        "desc": "Die wirtschaftliche Seite des Bündnisses: sowjetische Subventionen, Erdöl zu Vorzugspreisen und was Bulgarien daraus zog."
+      },
+      "security": {
+        "title": "Die Staatssicherheit und der Fall Markow",
+        "desc": "Die Darschawna Sigurnost, ihre Verbindungen zum KGB, ihr Informantennetz. Die Ermordung Georgi Markows in London 1978."
+      },
+      "traffic": {
+        "title": "Nachrichtendienst und Schmuggel",
+        "desc": "Die verdeckte Arbeit der bulgarischen Dienste im Ausland: Waffen, Schmuggel, Auslandsoperationen."
+      },
+      "republic": {
+        "title": "Eine sechzehnte Sowjetrepublik?",
+        "desc": "Die wiederholten Beitrittsgesuche an die UdSSR, von den 1960er bis in die 1970er Jahre. Ein wenig bekanntes Kapitel der bulgarisch-sowjetischen Beziehungen."
+      },
+      "surplus": {
+        "title": "Der Surplus-Markt heute",
+        "desc": "Wo und wie Objekte aus dem kommunistischen Bulgarien noch immer den Besitzer wechseln: Flohmärkte, Militärbestände, Sammler. Eine Folge über die Gegenwart statt über die Geschichte."
+      }
+    },
+    "bonus": "Bonus"
   },
   "publications": {
     "badge": "— Publikationen —",

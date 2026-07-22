@@ -302,25 +302,59 @@
       "cafe": "Café de barrio",
       "computers": "Aula de informática"
     },
-    "after_photo": "Inspirado en documentos de la época, años {decade}"
+    "after_photo": "Inspirado en imágenes de los años {decade}"
   },
   "media": {
-    "badge": "— Medios —",
+    "badge": "— Pódcasts —",
     "title": "Historias en",
     "title_accent": "movimiento",
-    "description": "Documentales en vídeo, imágenes de archivo y podcasts que dan vida a la Bulgaria de la Guerra Fría.",
-    "doc_title": "Serie documental",
-    "doc_desc": "Documentales en vídeo en profundidad sobre eventos clave, lugares e historias de la Bulgaria de la Guerra Fría.",
-    "doc_status": "En producción",
-    "footage_title": "Imágenes de archivo",
-    "footage_desc": "Raras imágenes de archivo y fotografías de la era comunista, encontradas y restauradas de colecciones privadas.",
-    "footage_status": "Próximamente",
-    "podcast_title": "Podcast",
-    "podcast_desc": "Entrevistas de audio, análisis históricos e historias de testigos de la Bulgaria de la Guerra Fría.",
-    "podcast_status": "Próximamente",
-    "youtube_title": "Peoples Republic Of Bulgaria",
-    "youtube_desc": "180+ vídeos — Historia, URBEX, Turismo y Colección",
-    "youtube_cta": "Visitar canal"
+    "description": "Nueve episodios sobre la Bulgaria de la Guerra Fría, de 1944 al final del régimen, más un extra sobre el coleccionismo hoy.",
+    "notice_title": "Versión beta, producida con ayuda de la IA",
+    "notice_body": "La voz y el montaje de estos episodios están generados por inteligencia artificial. La elección de los temas, el enfoque y las fuentes son obra mía. Como en todo contenido asistido por IA, conviene verificar algunos detalles. Versión beta, disponible por ahora solo en francés.",
+    "no_audio": "Su navegador no puede reproducir este archivo de audio.",
+    "episodes": {
+      "origins": {
+        "title": "Los orígenes: Bulgaria en 1944",
+        "desc": "Cómo el Reino de Bulgaria, aliado del Eje, quedó bajo control soviético en pocas semanas. Bombardeos aliados, entrada del Ejército Rojo, hundimiento del régimen."
+      },
+      "coup": {
+        "title": "El golpe de Estado del 9 de septiembre de 1944",
+        "desc": "El derrocamiento del gobierno real por el Frente de la Patria. El papel de los partisanos, el del Ejército Rojo y la instauración del nuevo poder."
+      },
+      "terror": {
+        "title": "Vulko Chervenkov, el Pequeño Stalin búlgaro",
+        "desc": "Los años más duros del régimen: procesos políticos, campos, colectivización forzosa. El estalinismo búlgaro de 1950 a 1956."
+      },
+      "spearhead": {
+        "title": "Bulgaria, punta de lanza del bloque soviético",
+        "desc": "El alineamiento con Moscú: Pacto de Varsovia, CAME e integración militar en el bloque del Este."
+      },
+      "zealous": {
+        "title": "Más celosos que Moscú",
+        "desc": "Por qué Bulgaria pasaba por el aliado más dócil de la URSS y qué encubría realmente esa reputación."
+      },
+      "economy": {
+        "title": "El precio de la lealtad",
+        "desc": "La cara económica de la alianza: subvenciones soviéticas, petróleo a precio preferente y lo que Bulgaria obtenía de ello."
+      },
+      "security": {
+        "title": "La Seguridad del Estado y el caso Markov",
+        "desc": "La Darzhavna Sigurnost, sus vínculos con el KGB, su red de informantes. El asesinato de Georgi Markov en Londres en 1978."
+      },
+      "traffic": {
+        "title": "Inteligencia y contrabando",
+        "desc": "La actividad clandestina de los servicios búlgaros en el exterior: armas, contrabando, operaciones en el extranjero."
+      },
+      "republic": {
+        "title": "¿Una decimosexta república soviética?",
+        "desc": "Las peticiones repetidas de adhesión a la URSS, de los años sesenta a los setenta. Un capítulo poco conocido de las relaciones búlgaro-soviéticas."
+      },
+      "surplus": {
+        "title": "El mercado de excedentes hoy",
+        "desc": "Dónde y cómo circulan todavía los objetos de la Bulgaria comunista: mercadillos, excedentes militares, coleccionistas. Un episodio sobre el presente y no sobre la historia."
+      }
+    },
+    "bonus": "Extra"
   },
   "publications": {
     "badge": "— Publicaciones —",

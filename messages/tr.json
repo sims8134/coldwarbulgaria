@@ -302,25 +302,59 @@
       "cafe": "Mahalle kahvesi",
       "computers": "Bilgisayar sınıfı"
     },
-    "after_photo": "Döneme ait belgelerden esinlenerek, {decade}'ler"
+    "after_photo": "{decade}'lerden görüntülerden esinlenerek"
   },
   "media": {
-    "badge": "— Medya —",
-    "title": "Hareket Halinde",
-    "title_accent": "Hikayeler",
-    "description": "Soğuk Savaş Bulgaristanı'nı hayata geçiren video belgeseller, arşiv görüntüleri ve podcast'ler.",
-    "doc_title": "Belgesel Dizi",
-    "doc_desc": "Soğuk Savaş Bulgaristanı'ndaki kilit olayları, yerleri ve hikayeleri araştıran derinlemesine video belgeseller.",
-    "doc_status": "Yapım aşamasında",
-    "footage_title": "Arşiv Görüntüleri",
-    "footage_desc": "Özel koleksiyonlardan temin edilen ve restore edilen komünist dönemden nadir arşiv görüntüleri ve fotoğraflar.",
-    "footage_status": "Yakında",
-    "podcast_title": "Podcast",
-    "podcast_desc": "Soğuk Savaş Bulgaristanı tanıklarından sesli röportajlar, tarihi analizler ve hikayeler.",
-    "podcast_status": "Yakında",
-    "youtube_title": "Peoples Republic Of Bulgaria",
-    "youtube_desc": "180+ video — Tarih, URBEX, Turizm ve Koleksiyon",
-    "youtube_cta": "Kanalı Ziyaret Et"
+    "badge": "— Podcastler —",
+    "title": "Hareket hâlinde",
+    "title_accent": "hikâyeler",
+    "description": "Soğuk Savaş Bulgaristanı üzerine dokuz bölüm, 1944'ten rejimin sonuna, artı bugün koleksiyonculuk üzerine bir bonus.",
+    "notice_title": "Beta sürüm, yapay zekâ desteğiyle üretildi",
+    "notice_body": "Bu bölümlerin sesi ve kurgusu yapay zekâ tarafından üretilmiştir. Konu seçimi, bakış açısı ve kaynaklar bana aittir. Yapay zekâ destekli her içerikte olduğu gibi, bazı ayrıntıların doğrulanmasında yarar vardır. Beta sürüm, şimdilik yalnızca Fransızca.",
+    "no_audio": "Tarayıcınız bu ses dosyasını oynatamıyor.",
+    "episodes": {
+      "origins": {
+        "title": "Başlangıç: 1944'te Bulgaristan",
+        "desc": "Mihver müttefiki Bulgaristan Krallığı'nın birkaç hafta içinde Sovyet denetimine geçişi. Müttefik bombardımanları, Kızıl Ordu'nun girişi, rejimin çöküşü."
+      },
+      "coup": {
+        "title": "9 Eylül 1944 darbesi",
+        "desc": "Kraliyet hükümetinin Vatan Cephesi tarafından devrilmesi. Partizanların ve Kızıl Ordu'nun rolü, yeni iktidarın kuruluşu."
+      },
+      "terror": {
+        "title": "Vılko Çervenkov, Bulgaristan'ın Küçük Stalin'i",
+        "desc": "Rejimin en sert yılları: siyasi davalar, kamplar, zorla kolektifleştirme. 1950-1956 arası Bulgar Stalinizmi."
+      },
+      "spearhead": {
+        "title": "Bulgaristan, Sovyet blokunun mızrak ucu",
+        "desc": "Moskova'ya hizalanma: Varşova Paktı, COMECON ve Doğu blokuna askerî entegrasyon."
+      },
+      "zealous": {
+        "title": "Moskova'dan da gayretli",
+        "desc": "Bulgaristan neden SSCB'nin en uysal müttefiki sayılıyordu ve bu ünün ardında gerçekte ne vardı."
+      },
+      "economy": {
+        "title": "Sadakatin bedeli",
+        "desc": "İttifakın ekonomik yüzü: Sovyet sübvansiyonları, ayrıcalıklı fiyatla petrol ve Bulgaristan'ın bundan elde ettikleri."
+      },
+      "security": {
+        "title": "Devlet Güvenliği ve Markov olayı",
+        "desc": "Darjavna Sigurnost, KGB ile bağları, muhbir ağı. Georgi Markov'un 1978'de Londra'da öldürülmesi."
+      },
+      "traffic": {
+        "title": "İstihbarat ve kaçakçılık",
+        "desc": "Bulgar servislerinin yurt dışındaki gizli faaliyetleri: silah, kaçakçılık, dış operasyonlar."
+      },
+      "republic": {
+        "title": "On altıncı Sovyet cumhuriyeti mi?",
+        "desc": "SSCB'ye katılma yönündeki tekrarlanan talepler, 1960'lardan 1970'lere. Bulgar-Sovyet ilişkilerinin az bilinen bir bölümü."
+      },
+      "surplus": {
+        "title": "Bugün surplus piyasası",
+        "desc": "Komünist Bulgaristan'dan kalma nesneler bugün nerede ve nasıl el değiştiriyor: bit pazarları, askerî fazlalık, koleksiyoncular. Geçmişten çok bugüne dair bir bölüm."
+      }
+    },
+    "bonus": "Bonus"
   },
   "publications": {
     "badge": "— Yayınlar —",
