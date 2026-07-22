@@ -281,27 +281,28 @@
     "title_accent": "YZ ile",
     "description": "Bir deney: yapay zekânın, gerçek belgelerden yola çıkarak bir dönemi nasıl gösterdiği.",
     "notice_title": "Bu görüntüler arşiv belgesi değildir",
-    "notice_body": "Bu bölümdeki tüm görüntüler, döneme ait fotoğraflardan yola çıkılarak yapay zekâ tarafından üretilmiştir. Hiçbir şeyi belgelemezler; bir yorum sunarlar. Bu bölüm, yapay zekâ çağımızın bir aracı hâline geldiği ve onu görmezden gelmektense tarihsel malzeme üzerinde sınamak bize daha ilgi çekici geldiği için var. Koleksiyonun özgün belgeleri sitenin diğer bölümlerinde yer alır; orada hiçbir üretilmiş görüntü yayımlanmaz.",
+    "notice_body": "Bu bölümdeki tüm görüntüler, döneme ait belge ve fotoğraflardan yola çıkılarak yapay zekâ tarafından üretilmiştir. Hiçbir şeyi belgelemezler; bir yorum sunarlar. Bu bölüm, yapay zekâ çağımızın bir aracı hâline geldiği ve onu görmezden gelmektense tarihsel malzeme üzerinde sınamak bize daha ilgi çekici geldiği için var. Koleksiyonun özgün belgeleri sitenin diğer bölümlerinde yer alır; orada hiçbir üretilmiş görüntü yayımlanmaz.",
     "ai_badge": "Yapay zekâ üretimi",
     "coming": "Yakında",
     "items": {
-      "street": {
-        "title": "Sofya sokağı",
-        "source": "1970'lerden bir fotoğraftan"
-      },
-      "interior": {
-        "title": "Daire içi",
-        "source": "1980'lerden bir fotoğraftan"
-      },
-      "factory": {
-        "title": "Sanayi tesisi",
-        "source": "1960'lardan bir fotoğraftan"
-      },
-      "parade": {
-        "title": "Resmî geçit",
-        "source": "1980'lerden bir fotoğraftan"
-      }
-    }
+      "housing": "Toplu konut sitesi",
+      "varna": "Varna Limanı",
+      "airport": "Sofya Havalimanı",
+      "parade": "Askerî geçit",
+      "radar": "Radar aracı",
+      "shipka": "Şipka gezisi",
+      "street": "Mahalle sokağı",
+      "station": "Küçük tren durağı",
+      "resthouse": "Dinlenme evi",
+      "militia": "Trafik milisi",
+      "march3": "3 Mart kutlaması",
+      "largo": "Largo",
+      "tram": "Karda tramvay",
+      "convoy": "Askerî konvoy",
+      "cafe": "Mahalle kahvesi",
+      "computers": "Bilgisayar sınıfı"
+    },
+    "after_photo": "Döneme ait belgelerden esinlenerek, {decade}'ler"
   },
   "media": {
     "badge": "— Medya —",

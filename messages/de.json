@@ -281,27 +281,28 @@
     "title_accent": "per KI",
     "description": "Ein Experiment: was künstliche Intelligenz aus einer Epoche macht, ausgehend von echten Dokumenten.",
     "notice_title": "Diese Bilder sind keine Archivdokumente",
-    "notice_body": "Alle Bilder in diesem Bereich wurden von künstlicher Intelligenz auf Grundlage zeitgenössischer Fotografien erzeugt. Sie dokumentieren nichts, sie bieten eine Deutung an. Dieser Bereich existiert, weil KI zu einem Werkzeug unserer Zeit geworden ist und es uns reizvoller schien, sie an historischem Material zu erproben, als sie zu ignorieren. Die authentischen Dokumente der Sammlung finden sich in den übrigen Bereichen der Website, wo kein einziges erzeugtes Bild veröffentlicht wird.",
+    "notice_body": "Alle Bilder in diesem Bereich wurden von künstlicher Intelligenz erzeugt, ausgehend von zeitgenössischen Dokumenten und Fotografien. Sie dokumentieren nichts, sie bieten eine Deutung an. Dieser Bereich existiert, weil KI zu einem Werkzeug unserer Zeit geworden ist und es uns reizvoller schien, sie an historischem Material zu erproben, als sie zu ignorieren. Die authentischen Dokumente der Sammlung finden sich in den übrigen Bereichen der Website, wo kein einziges erzeugtes Bild veröffentlicht wird.",
     "ai_badge": "KI-generiert",
     "coming": "Demnächst",
     "items": {
-      "street": {
-        "title": "Straße in Sofia",
-        "source": "Nach einer Fotografie der 1970er Jahre"
-      },
-      "interior": {
-        "title": "Wohnungsinneres",
-        "source": "Nach einer Fotografie der 1980er Jahre"
-      },
-      "factory": {
-        "title": "Industriestandort",
-        "source": "Nach einer Fotografie der 1960er Jahre"
-      },
-      "parade": {
-        "title": "Offizielle Parade",
-        "source": "Nach einer Fotografie der 1980er Jahre"
-      }
-    }
+      "housing": "Wohnsiedlung",
+      "varna": "Hafen von Warna",
+      "airport": "Flughafen Sofia",
+      "parade": "Militärparade",
+      "radar": "Radarfahrzeug",
+      "shipka": "Ausflug zum Schipkapass",
+      "street": "Straße im Wohnviertel",
+      "station": "Bahnhaltepunkt",
+      "resthouse": "Erholungsheim",
+      "militia": "Verkehrsmiliz",
+      "march3": "Feier zum 3. März",
+      "largo": "Das Largo",
+      "tram": "Straßenbahn im Schnee",
+      "convoy": "Militärkonvoi",
+      "cafe": "Café im Viertel",
+      "computers": "Informatikraum"
+    },
+    "after_photo": "Angeregt durch zeitgenössische Dokumente, {decade}er Jahre"
   },
   "media": {
     "badge": "— Medien —",

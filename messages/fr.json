@@ -281,27 +281,28 @@
     "title_accent": "par IA",
     "description": "Une expérimentation : ce que l'intelligence artificielle donne à voir d'une époque, à partir de documents réels.",
     "notice_title": "Ces images ne sont pas des documents d'archives",
-    "notice_body": "Toutes les images de cette section sont générées par intelligence artificielle à partir de photographies d'époque. Elles ne documentent rien : elles proposent une interprétation. Cette section existe parce que l'IA est devenue un outil de notre temps et qu'il nous a semblé plus intéressant de l'éprouver sur un matériau historique que de l'ignorer. Les documents authentiques de la collection se trouvent dans les autres sections du site, où aucune image générée n'est publiée.",
+    "notice_body": "Toutes les images de cette section sont générées par intelligence artificielle, à partir de documents et de photographies d'époque. Elles ne documentent rien : elles proposent une interprétation. Cette section existe parce que l'IA est devenue un outil de notre temps et qu'il nous a semblé plus intéressant de l'éprouver sur un matériau historique que de l'ignorer. Les documents authentiques de la collection se trouvent dans les autres sections du site, où aucune image générée n'est publiée.",
     "ai_badge": "Généré par IA",
     "coming": "À venir",
     "items": {
-      "street": {
-        "title": "Rue de Sofia",
-        "source": "D'après une photographie des années 1970"
-      },
-      "interior": {
-        "title": "Intérieur d'appartement",
-        "source": "D'après une photographie des années 1980"
-      },
-      "factory": {
-        "title": "Site industriel",
-        "source": "D'après une photographie des années 1960"
-      },
-      "parade": {
-        "title": "Défilé officiel",
-        "source": "D'après une photographie des années 1980"
-      }
-    }
+      "housing": "Quartier résidentiel",
+      "varna": "Port de Varna",
+      "airport": "Aéroport de Sofia",
+      "parade": "Défilé militaire",
+      "radar": "Véhicule radar",
+      "shipka": "Excursion à Chipka",
+      "street": "Rue de quartier",
+      "station": "Halte ferroviaire",
+      "resthouse": "Maison de repos",
+      "militia": "Milicien de la circulation",
+      "march3": "Fête du 3 mars",
+      "largo": "Le Largo",
+      "tram": "Tramway sous la neige",
+      "convoy": "Colonne militaire",
+      "cafe": "Café de quartier",
+      "computers": "Salle d'informatique"
+    },
+    "after_photo": "Inspiré de documents d'époque, années {decade}"
   },
   "media": {
     "badge": "— Médias —",

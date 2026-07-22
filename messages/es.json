@@ -281,27 +281,28 @@
     "title_accent": "con IA",
     "description": "Un experimento: lo que la inteligencia artificial muestra de una época, partiendo de documentos reales.",
     "notice_title": "Estas imágenes no son documentos de archivo",
-    "notice_body": "Todas las imágenes de esta sección están generadas por inteligencia artificial a partir de fotografías de la época. No documentan nada: proponen una interpretación. Esta sección existe porque la IA se ha convertido en una herramienta de nuestro tiempo y nos pareció más interesante ponerla a prueba sobre material histórico que ignorarla. Los documentos auténticos de la colección se encuentran en las demás secciones del sitio, donde no se publica ninguna imagen generada.",
+    "notice_body": "Todas las imágenes de esta sección están generadas por inteligencia artificial, a partir de documentos y fotografías de la época. No documentan nada: proponen una interpretación. Esta sección existe porque la IA se ha convertido en una herramienta de nuestro tiempo y nos pareció más interesante ponerla a prueba sobre material histórico que ignorarla. Los documentos auténticos de la colección se encuentran en las demás secciones del sitio, donde no se publica ninguna imagen generada.",
     "ai_badge": "Generado por IA",
     "coming": "Próximamente",
     "items": {
-      "street": {
-        "title": "Calle de Sofía",
-        "source": "A partir de una fotografía de los años setenta"
-      },
-      "interior": {
-        "title": "Interior de vivienda",
-        "source": "A partir de una fotografía de los años ochenta"
-      },
-      "factory": {
-        "title": "Sitio industrial",
-        "source": "A partir de una fotografía de los años sesenta"
-      },
-      "parade": {
-        "title": "Desfile oficial",
-        "source": "A partir de una fotografía de los años ochenta"
-      }
-    }
+      "housing": "Barrio de bloques",
+      "varna": "Puerto de Varna",
+      "airport": "Aeropuerto de Sofía",
+      "parade": "Desfile militar",
+      "radar": "Vehículo radar",
+      "shipka": "Excursión a Shipka",
+      "street": "Calle de barrio",
+      "station": "Apeadero",
+      "resthouse": "Casa de descanso",
+      "militia": "Miliciano de tráfico",
+      "march3": "Fiesta del 3 de marzo",
+      "largo": "El Largo",
+      "tram": "Tranvía bajo la nieve",
+      "convoy": "Convoy militar",
+      "cafe": "Café de barrio",
+      "computers": "Aula de informática"
+    },
+    "after_photo": "Inspirado en documentos de la época, años {decade}"
   },
   "media": {
     "badge": "— Medios —",
