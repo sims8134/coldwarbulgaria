@@ -312,6 +312,7 @@
     "notice_title": "Version bêta, produite avec l'aide de l'IA",
     "notice_body": "La voix et le montage de ces épisodes sont générés par intelligence artificielle. Le choix des sujets, l'angle et les sources sont de mon fait. Comme pour tout contenu produit avec l'aide de l'IA, certains détails méritent d'être vérifiés. Version bêta, disponible en français uniquement pour le moment.",
     "no_audio": "Votre navigateur ne peut pas lire ce fichier audio.",
+    "read_article": "Lire l'article",
     "episodes": {
       "origins": {
         "title": "Les origines : la Bulgarie en 1944",

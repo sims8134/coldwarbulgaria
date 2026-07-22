@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
-import { Mic, Info } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { Mic, Info, FileText } from 'lucide-react'
+import { useTranslations, useLocale } from 'next-intl'
 
 /** Les six episodes, dans l'ordre des fichiers cwb-pod-01 a 06. */
 const episodes = [
@@ -19,6 +19,7 @@ const episodes = [
 
 export default function MediaSection() {
   const t = useTranslations('media')
+  const locale = useLocale()
   const [hovered, setHovered] = useState<string | null>(null)
 
   return (
@@ -101,6 +102,16 @@ export default function MediaSection() {
                 <audio controls preload="none" src={`/podcasts/${ep.file}`} style={{width: '100%', height: '36px', display: 'block'}}>
                   {t('no_audio')}
                 </audio>
+
+                {!ep.bonus && (
+                  <a
+                    href={`/${locale}/articles/${ep.key}`}
+                    style={{marginTop: '14px', display: 'inline-flex', alignItems: 'center', gap: '7px', color: '#e63946', fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em', textDecoration: 'none', borderBottom: '1px solid rgba(230,57,70,0.35)', paddingBottom: '3px', alignSelf: 'flex-start'}}
+                  >
+                    <FileText size={12} />
+                    {t('read_article')}
+                  </a>
+                )}
               </div>
             )
           })}
