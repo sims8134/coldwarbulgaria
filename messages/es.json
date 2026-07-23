@@ -145,6 +145,7 @@
     "select_location": "[ SELECCIONAR LUGAR ]",
     "select_hint": "Haga clic en un marcador para ver detalles",
     "oblast": "Oblast",
+    "reset": "Todos",
     "types": {
       "capital": "Capital",
       "city": "Grandes ciudades",
@@ -242,13 +243,19 @@
         "description": "Ciudad meridional cerca de las fronteras turca y griega."
       },
       "bansko": {
-        "description": "Ciudad de montaña en el macizo de Pirin. Durante la Guerra Fría, Bansko se desarrolló como estación de esquí y turismo bajo control estatal, accesible solo a ciudadanos autorizados y visitantes extranjeros."
+        "description": "Ciudad de montaña en el Pirin, desarrollada bajo el régimen como estación de esquí y turismo estatal. Conserva un antiguo cuartel abandonado cuyos frescos militares siguen visibles; al parecer el ayuntamiento alquila hoy allí locales."
       },
       "borovets": {
         "description": "La estación de montaña más antigua de Bulgaria, al pie del Rila. Bajo el comunismo, Borovets fue un enclave de prestigio reservado a los cuadros del partido y a turistas autorizados."
       },
       "belene": {
         "description": "Campo de trabajo en la isla de Persin, en el Danubio. Activo de 1949 a 1959, reabierto en 1985 para internar a los turcos que se resistían al Proceso de Renacimiento."
+      },
+      "kazanlak": {
+        "description": "Ciudad del valle de las Rosas, sede de Arsenal, uno de los principales fabricantes de armas del país desde 1878, conocido por sus variantes del Kaláshnikov. La ciudad conserva además una tumba tracia inscrita en el patrimonio mundial."
+      },
+      "batak": {
+        "description": "Ciudad de los Ródopes, marcada por la masacre de 1876: las tropas otomanas mataron allí a varios miles de búlgaros durante la represión del Levantamiento de Abril. El memorial y el museo, construidos por el régimen para el centenario en 1976, conservan su memoria."
       },
       "buzludzha": {
         "description": "Casa-monumento del Partido Comunista Búlgaro, inaugurada en 1981 en el pico Buzludzha. Abandonada desde 1989 y hoy en ruinas."
@@ -312,6 +319,7 @@
     "notice_title": "Versión beta, producida con ayuda de la IA",
     "notice_body": "La voz y el montaje de estos episodios están generados por inteligencia artificial. La elección de los temas, el enfoque y las fuentes son obra mía. Como en todo contenido asistido por IA, conviene verificar algunos detalles. Versión beta, disponible por ahora solo en francés.",
     "no_audio": "Su navegador no puede reproducir este archivo de audio.",
+    "read_article": "Leer el artículo",
     "episodes": {
       "origins": {
         "title": "Los orígenes: Bulgaria en 1944",

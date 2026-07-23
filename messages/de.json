@@ -145,6 +145,7 @@
     "select_location": "[ ORT AUSWÄHLEN ]",
     "select_hint": "Klicken Sie auf einen Marker für Details",
     "oblast": "Oblast",
+    "reset": "Alle",
     "types": {
       "capital": "Hauptstadt",
       "city": "Große Städte",
@@ -242,13 +243,19 @@
         "description": "Südliche Stadt nahe der türkischen und griechischen Grenze."
       },
       "bansko": {
-        "description": "Bergstadt im Pirin-Gebirge. Im Kalten Krieg wurde Bansko als staatlich kontrollierter Ski- und Tourismusort ausgebaut, zugänglich nur für zugelassene Bürger und ausländische Gäste."
+        "description": "Bergstadt im Pirin, unter dem Regime als staatlicher Ski- und Tourismusort ausgebaut. Erhalten ist eine verlassene Kaserne, deren Militärfresken noch sichtbar sind; die Gemeinde soll dort heute Räume vermieten."
       },
       "borovets": {
         "description": "Ältester Bergkurort Bulgariens am Fuß des Rila-Gebirges. Unter dem Kommunismus war Borowez ein Prestigeort, der Parteifunktionären und ausgewählten Touristen vorbehalten war."
       },
       "belene": {
         "description": "Arbeitslager auf der Donauinsel Persin. Betrieben von 1949 bis 1959, 1985 erneut geöffnet zur Internierung von Türken, die sich dem Wiedergeburtsprozess widersetzten."
+      },
+      "kazanlak": {
+        "description": "Stadt im Rosental, Sitz von Arsenal, seit 1878 einer der wichtigsten Waffenhersteller des Landes, bekannt für seine Kalaschnikow-Varianten. In der Stadt liegt zudem ein thrakisches Grab, das zum Weltkulturerbe zählt."
+      },
+      "batak": {
+        "description": "Stadt im Rhodopengebirge, gezeichnet vom Massaker von 1876: Osmanische Truppen töteten dort mehrere Tausend Bulgaren bei der Niederschlagung des Aprilaufstands. Gedenkstätte und Museum, vom Regime zum hundertsten Jahrestag 1976 errichtet, bewahren die Erinnerung daran."
       },
       "buzludzha": {
         "description": "Denkmalhaus der Bulgarischen Kommunistischen Partei, 1981 auf dem Gipfel Buzludscha eingeweiht. Seit 1989 verlassen und heute eine Ruine."
@@ -312,6 +319,7 @@
     "notice_title": "Betaversion, mit KI-Unterstützung erstellt",
     "notice_body": "Stimme und Schnitt dieser Folgen sind von künstlicher Intelligenz erzeugt. Themenwahl, Blickwinkel und Quellen stammen von mir. Wie bei allen KI-gestützten Inhalten sollten einzelne Angaben überprüft werden. Betaversion, derzeit nur auf Französisch verfügbar.",
     "no_audio": "Ihr Browser kann diese Audiodatei nicht abspielen.",
+    "read_article": "Artikel lesen",
     "episodes": {
       "origins": {
         "title": "Die Anfänge: Bulgarien 1944",

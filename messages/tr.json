@@ -145,6 +145,7 @@
     "select_location": "[ KONUM SEÇİN ]",
     "select_hint": "Ayrıntılar için bir işaretçiye tıklayın",
     "oblast": "Oblast",
+    "reset": "Tümü",
     "types": {
       "capital": "Başkent",
       "city": "Büyük Şehirler",
@@ -242,13 +243,19 @@
         "description": "Türkiye ve Yunanistan sınırlarına yakın güney şehri."
       },
       "bansko": {
-        "description": "Pirin Dağları'nda bir dağ kasabası. Soğuk Savaş sırasında Bansko, yalnızca onaylı vatandaşlara ve yabancı ziyaretçilere açık, devlet denetiminde bir kayak ve turizm merkezi olarak geliştirildi."
+        "description": "Pirin'de bir dağ kasabası, rejim döneminde devlet eliyle kayak ve turizm merkezi olarak geliştirildi. Askerî fresklerinin hâlâ görülebildiği terk edilmiş bir kışlayı barındırır; belediyenin bugün buradaki mekânları kiraya verdiği söyleniyor."
       },
       "borovets": {
         "description": "Rila Dağı'nın eteğindeki en eski Bulgar dağ merkezi. Komünizm döneminde Borovets, parti yetkililerine ve onaylı turistlere ayrılmış prestijli bir tesisti."
       },
       "belene": {
         "description": "Tuna'daki Persin Adası'nda çalışma kampı. 1949-1959 arasında faaliyet gösterdi, 1985'te Soya Dönüş Süreci'ne direnen Türkleri toplamak için yeniden açıldı."
+      },
+      "kazanlak": {
+        "description": "Güller Vadisi'nde bir kent; 1878'den beri ülkenin başlıca silah üreticilerinden Arsenal'in merkezi, Kalaşnikof türevleriyle tanınır. Kentte ayrıca Dünya Mirası listesindeki bir Trak mezarı bulunur."
+      },
+      "batak": {
+        "description": "Rodoplarda bir kasaba, 1876 katliamıyla anılır: Osmanlı birlikleri Nisan Ayaklanması'nın bastırılması sırasında burada birkaç bin Bulgar'ı öldürdü. Rejim tarafından 1976'da yüzüncü yıl için yapılan anıt ve müze bu hatırayı korur."
       },
       "buzludzha": {
         "description": "Bulgaristan Komünist Partisi'nin anıt binası, 1981'de Buzludja Zirvesi'nde açıldı. 1989'dan beri terk edilmiş ve bugün harap durumda."
@@ -312,6 +319,7 @@
     "notice_title": "Beta sürüm, yapay zekâ desteğiyle üretildi",
     "notice_body": "Bu bölümlerin sesi ve kurgusu yapay zekâ tarafından üretilmiştir. Konu seçimi, bakış açısı ve kaynaklar bana aittir. Yapay zekâ destekli her içerikte olduğu gibi, bazı ayrıntıların doğrulanmasında yarar vardır. Beta sürüm, şimdilik yalnızca Fransızca.",
     "no_audio": "Tarayıcınız bu ses dosyasını oynatamıyor.",
+    "read_article": "Makaleyi oku",
     "episodes": {
       "origins": {
         "title": "Başlangıç: 1944'te Bulgaristan",

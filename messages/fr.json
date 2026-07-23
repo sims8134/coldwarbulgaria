@@ -145,6 +145,7 @@
     "select_location": "[ SÉLECTIONNER UN LIEU ]",
     "select_hint": "Cliquez sur un marqueur pour voir les détails",
     "oblast": "Oblast",
+    "reset": "Tout",
     "types": {
       "capital": "Capitale",
       "city": "Grandes villes",
@@ -242,13 +243,19 @@
         "description": "Ville du sud, près des frontières turque et grecque."
       },
       "bansko": {
-        "description": "Ville de montagne dans le Pirin. Pendant la Guerre froide, Bansko fut aménagée en station de ski et de tourisme sous contrôle de l'État, accessible aux seuls citoyens agréés et visiteurs étrangers."
+        "description": "Ville de montagne dans le Pirin, aménagée sous le régime en station de ski et de tourisme d'État. Elle conserve une ancienne caserne à l'abandon, dont les fresques militaires sont encore visibles ; la municipalité y proposerait aujourd'hui des locaux à la location."
       },
       "borovets": {
         "description": "Plus ancienne station de montagne de Bulgarie, au pied du Rila. Sous le communisme, Borovets était une station prestigieuse réservée aux cadres du parti et aux touristes agréés."
       },
       "belene": {
         "description": "Camp de travail sur l'île de Persin, dans le Danube. En activité de 1949 à 1959, puis rouvert en 1985 pour y interner les Turcs de Bulgarie qui résistaient au Processus de renaissance."
+      },
+      "kazanlak": {
+        "description": "Ville de la vallée des Roses, siège d'Arsenal, l'un des principaux fabricants d'armes du pays depuis 1878, réputé pour ses variantes de la Kalachnikov. La ville conserve aussi un tombeau thrace inscrit au patrimoine mondial."
+      },
+      "batak": {
+        "description": "Ville des Rhodopes, marquée par le massacre de 1876 : les troupes ottomanes y ont tué plusieurs milliers de Bulgares lors de la répression du soulèvement d'Avril. Le mémorial et le musée, aménagés pour le centenaire en 1976 par le régime, en conservent la mémoire."
       },
       "buzludzha": {
         "description": "Maison-monument du Parti communiste bulgare, inaugurée en 1981 au sommet du pic Bouzloudja. Abandonnée depuis 1989 et aujourd'hui en ruine."

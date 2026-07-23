@@ -145,6 +145,7 @@
     "select_location": "[ SELECT A LOCATION ]",
     "select_hint": "Click on any marker to view details",
     "oblast": "Oblast",
+    "reset": "All",
     "types": {
       "capital": "Capital",
       "city": "Major Cities",
@@ -242,13 +243,19 @@
         "description": "Southern city near the Turkish and Greek borders."
       },
       "bansko": {
-        "description": "Mountain town in the Pirin Mountains. During the Cold War, Bansko was developed as a state-controlled ski and tourism resort, accessible only to approved citizens and foreign visitors."
+        "description": "A mountain town in the Pirin, developed under the regime as a state-run ski and tourism resort. It still holds a disused barracks whose military frescoes remain visible; the municipality is said to rent out premises there today."
       },
       "borovets": {
         "description": "Bulgaria's oldest mountain resort at the foot of Rila Mountain. Under communism, Borovets was a prestigious resort reserved for party officials and approved tourists."
       },
       "belene": {
         "description": "Labour camp on Persin Island in the Danube. Operated from 1949 to 1959, then reopened in 1985 to detain ethnic Turks who resisted the Revival Process."
+      },
+      "kazanlak": {
+        "description": "A town in the Valley of the Roses, home to Arsenal, one of the country's main arms manufacturers since 1878, known for its Kalashnikov variants. The town also holds a Thracian tomb listed as World Heritage."
+      },
+      "batak": {
+        "description": "A town in the Rhodopes, marked by the massacre of 1876: Ottoman troops killed several thousand Bulgarians there during the suppression of the April Uprising. The memorial and museum, built by the regime for the centenary in 1976, keep its memory."
       },
       "buzludzha": {
         "description": "Monument house of the Bulgarian Communist Party, opened in 1981 on Buzludzha Peak. Abandoned since 1989 and now derelict."

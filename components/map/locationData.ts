@@ -43,6 +43,8 @@ export const coldWarLocations: ColdWarLocation[] = [
   { id: 'bansko', name: 'Bansko', oblast: 'Blagoevgrad', type: 'model-city', category: 'Tourism / Mountain', coordinates: { lat: 41.8397, lng: 23.4878 } },
   { id: 'borovets', name: 'Borovets', oblast: 'Sofia', type: 'model-city', category: 'Tourism / Mountain', coordinates: { lat: 42.2667, lng: 23.5833 } },
   { id: 'belene', name: 'Belene', oblast: 'Pleven', type: 'camp', category: 'Repression / Labour Camp', coordinates: { lat: 43.6417, lng: 25.1264 } },
+  { id: 'kazanlak', name: 'Kazanlak', oblast: 'Stara Zagora', type: 'industrial', category: 'Arms Industry / History', coordinates: { lat: 42.6197, lng: 25.3969 } },
+  { id: 'batak', name: 'Batak', oblast: 'Pazardzhik', type: 'monument', category: 'Memorial / History', coordinates: { lat: 41.9406, lng: 24.2192 } },
   { id: 'buzludzha', name: 'Buzludzha', oblast: 'Stara Zagora', type: 'monument', category: 'Monument / Socialist Heritage', coordinates: { lat: 42.7358, lng: 25.3936 } },
 ]
 

@@ -1,6 +1,7 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
+import { ChevronLeft, ChevronRight, X, Expand } from 'lucide-react'
 import { coldWarLocations, locationTypeColors, locationTypeOrder, type ColdWarLocation } from '@/components/map/locationData'
 
 const cityCoords: Record<string, { cx: number; cy: number }> = {
@@ -35,7 +36,24 @@ const cityCoords: Record<string, { cx: number; cy: number }> = {
   'Bansko': { cx: 220, cy: 530 },
   'Borovets': { cx: 248, cy: 430 },
   'Belene': { cx: 460, cy: 138 },
+  'Kazanlak': { cx: 489, cy: 351 },
+  'Batak': { cx: 318, cy: 484 },
   'Buzludzha': { cx: 496, cy: 332 },
+}
+
+/** Nombre de photos disponibles par lieu, dans public/places/<id>/01.jpg ... */
+const placePhotos: Record<string, number> = {
+  bansko: 4,
+  batak: 4,
+  burgas: 4,
+  buzludzha: 3,
+  dimitrovgrad: 4,
+  kazanlak: 4,
+  montana: 3,
+  pleven: 4,
+  sofia: 4,
+  varna: 4,
+  'veliko-tarnovo': 3,
 }
 
 /** Frontieres des pays voisins, extraites de Balkans_location_map.svg (Wikimedia, CC BY-SA).
@@ -115,6 +133,42 @@ export default function MapSection() {
   const t = useTranslations('map')
   const [selectedLocation, setSelectedLocation] = useState<ColdWarLocation | null>(null)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const [photo, setPhoto] = useState(0)
+
+  // On repart de la premiere photo des qu'on change de lieu.
+  useEffect(() => { setPhoto(0) }, [selectedLocation?.id])
+
+  const photoCount = selectedLocation ? (placePhotos[selectedLocation.id] ?? 0) : 0
+  const [zoom, setZoom] = useState(false)
+  const [activeType, setActiveType] = useState<ColdWarLocation['type'] | null>(null)
+
+  const visibleLocations = activeType
+    ? coldWarLocations.filter(l => l.type === activeType)
+    : coldWarLocations
+
+  // Si le lieu ouvert sort du filtre, on referme son panneau.
+  useEffect(() => {
+    if (activeType && selectedLocation && selectedLocation.type !== activeType) {
+      setSelectedLocation(null)
+    }
+  }, [activeType, selectedLocation])
+
+  // Clavier pendant l'agrandissement : Echap ferme, fleches naviguent.
+  useEffect(() => {
+    if (!zoom) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setZoom(false)
+      else if (e.key === 'ArrowLeft') setPhoto(p => (p - 1 + photoCount) % photoCount)
+      else if (e.key === 'ArrowRight') setPhoto(p => (p + 1) % photoCount)
+    }
+    window.addEventListener('keydown', onKey)
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      document.body.style.overflow = previous
+    }
+  }, [zoom, photoCount])
 
   const getCoords = (location: ColdWarLocation) => cityCoords[location.name] || null
 
@@ -153,7 +207,7 @@ export default function MapSection() {
             <div style={{position: 'absolute', top: '12px', left: '50%', transform: 'translateX(-50%)', zIndex: 20, pointerEvents: 'none', display: 'flex', alignItems: 'center', gap: '8px'}}>
               <div style={{width: '6px', height: '6px', borderRadius: '50%', background: '#e63946'}} />
               <span style={{color: '#e63946', fontSize: '10px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.15em'}}>
-                {t('active')} — {coldWarLocations.length} {t('locations')}
+                {t('active')} — {visibleLocations.length} {t('locations')}
               </span>
             </div>
             <svg viewBox="0 0 1000 651" style={{width: '100%', height: 'auto', display: 'block'}}>
@@ -181,7 +235,7 @@ export default function MapSection() {
                   {t(`countries.${seaLabel.key}`)}
                 </text>
               </g>
-              {coldWarLocations.map((location) => {
+              {visibleLocations.map((location) => {
                 const coords = getCoords(location)
                 if (!coords) return null
                 const {cx, cy} = coords
@@ -214,12 +268,29 @@ export default function MapSection() {
 
           <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
             <div style={{background: 'rgba(5,10,5,0.9)', border: '1px solid #1f2937', padding: '20px'}}>
-              <h4 style={{color: '#e63946', fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.15em', margin: '0 0 16px 0'}}>
-                {t('classification')}
-              </h4>
+              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '10px', margin: '0 0 16px 0'}}>
+                <h4 style={{color: '#e63946', fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.15em', margin: 0}}>
+                  {t('classification')}
+                </h4>
+                {activeType && (
+                  <button
+                    onClick={() => setActiveType(null)}
+                    style={{background: 'none', border: '1px solid #374151', color: '#9ca3af', fontSize: '9px', fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: '0.1em', padding: '3px 7px', cursor: 'pointer', whiteSpace: 'nowrap'}}
+                  >
+                    {t('reset')}
+                  </button>
+                )}
+              </div>
               <div style={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
-                {locationTypeOrder.map((type) => (
-                  <div key={type} style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+                {locationTypeOrder.map((type) => {
+                  const isActive = activeType === type
+                  const dimmed = activeType !== null && !isActive
+                  return (
+                  <button
+                    key={type}
+                    onClick={() => setActiveType(isActive ? null : type)}
+                    style={{display: 'flex', alignItems: 'center', gap: '10px', width: '100%', textAlign: 'left', background: 'none', border: 'none', padding: '2px 0', cursor: 'pointer', opacity: dimmed ? 0.32 : 1, transition: 'opacity 0.2s'}}
+                  >
                     {type === 'capital' ? (
                       <svg width="12" height="12" viewBox="0 0 12 12" style={{flexShrink: 0, overflow: 'visible'}}>
                         <polygon points={starPoints(6, 6, 6, 2.5)} fill={locationTypeColors[type]} style={{filter: `drop-shadow(0 0 4px ${locationTypeColors[type]})`}}/>
@@ -227,9 +298,10 @@ export default function MapSection() {
                     ) : (
                       <div style={{width: '8px', height: '8px', borderRadius: '50%', background: locationTypeColors[type], boxShadow: `0 0 6px ${locationTypeColors[type]}`, flexShrink: 0}}/>
                     )}
-                    <span style={{color: '#6b7280', fontSize: '11px', fontFamily: 'monospace'}}>{t(`types.${type}`)}</span>
-                  </div>
-                ))}
+                    <span style={{color: isActive ? '#e63946' : '#6b7280', fontSize: '11px', fontFamily: 'monospace', transition: 'color 0.2s'}}>{t(`types.${type}`)}</span>
+                  </button>
+                  )
+                })}
               </div>
             </div>
 
@@ -246,6 +318,54 @@ export default function MapSection() {
                 </div>
                 <h3 style={{color: 'white', fontSize: '20px', fontWeight: 'bold', margin: '0 0 4px 0'}}>{selectedLocation.name}</h3>
                 <p style={{color: '#4b5563', fontSize: '11px', fontFamily: 'monospace', margin: '0 0 12px 0'}}>{selectedLocation.oblast} {t('oblast')}</p>
+
+                {photoCount > 0 && (
+                  <div style={{position: 'relative', marginBottom: '14px'}}>
+                    <button
+                      onClick={() => setZoom(true)}
+                      aria-label={selectedLocation.name}
+                      style={{display: 'block', width: '100%', padding: 0, border: '1px solid #1f2937', background: 'none', cursor: 'zoom-in', lineHeight: 0, position: 'relative'}}
+                    >
+                      <img
+                        src={`/places/${selectedLocation.id}/${String(photo + 1).padStart(2, '0')}.jpg`}
+                        alt={selectedLocation.name}
+                        style={{width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block'}}
+                      />
+                      <span style={{position: 'absolute', top: '7px', right: '7px', background: 'rgba(10,10,11,0.72)', border: '1px solid #374151', padding: '4px', display: 'flex', lineHeight: 0}}>
+                        <Expand size={11} style={{color: '#d1d5db'}} />
+                      </span>
+                    </button>
+                    {photoCount > 1 && (
+                      <>
+                        <button
+                          onClick={() => setPhoto(p => (p - 1 + photoCount) % photoCount)}
+                          aria-label="Précédent"
+                          style={{position: 'absolute', left: '6px', top: '50%', transform: 'translateY(-50%)', background: 'rgba(10,10,11,0.72)', border: '1px solid #374151', color: '#d1d5db', cursor: 'pointer', width: '26px', height: '26px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0}}
+                        >
+                          <ChevronLeft size={14} />
+                        </button>
+                        <button
+                          onClick={() => setPhoto(p => (p + 1) % photoCount)}
+                          aria-label="Suivant"
+                          style={{position: 'absolute', right: '6px', top: '50%', transform: 'translateY(-50%)', background: 'rgba(10,10,11,0.72)', border: '1px solid #374151', color: '#d1d5db', cursor: 'pointer', width: '26px', height: '26px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0}}
+                        >
+                          <ChevronRight size={14} />
+                        </button>
+                        <div style={{position: 'absolute', bottom: '7px', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '5px'}}>
+                          {Array.from({length: photoCount}).map((_, i) => (
+                            <button
+                              key={i}
+                              onClick={() => setPhoto(i)}
+                              aria-label={`Photo ${i + 1}`}
+                              style={{width: '6px', height: '6px', borderRadius: '50%', padding: 0, cursor: 'pointer', border: 'none', background: i === photo ? '#e63946' : 'rgba(209,213,219,0.45)'}}
+                            />
+                          ))}
+                        </div>
+                      </>
+                    )}
+                  </div>
+                )}
+
                 <div style={{height: '1px', background: '#1f2937', margin: '0 0 12px 0'}}/>
                 <p style={{color: '#9ca3af', fontSize: '13px', lineHeight: '1.6', margin: 0}}>{t(`sites.${selectedLocation.id}.description`)}</p>
               </div>
@@ -260,6 +380,65 @@ export default function MapSection() {
           </div>
         </div>
       </div>
+
+      {/* Agrandissement plein ecran des photos de lieu */}
+      {zoom && selectedLocation && photoCount > 0 && (
+        <div
+          onClick={() => setZoom(false)}
+          style={{position: 'fixed', inset: 0, zIndex: 200, background: 'rgba(5,5,6,0.96)', display: 'flex', flexDirection: 'column'}}
+        >
+          <button
+            onClick={(e) => { e.stopPropagation(); setZoom(false) }}
+            aria-label="Fermer"
+            style={{position: 'absolute', top: '16px', right: '16px', zIndex: 10, background: '#e63946', border: 'none', color: 'white', cursor: 'pointer', width: '38px', height: '38px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0}}
+          >
+            <X size={20} />
+          </button>
+
+          <div style={{flex: 1, minHeight: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '56px 16px 12px', position: 'relative'}}>
+            {photoCount > 1 && (
+              <button
+                onClick={(e) => { e.stopPropagation(); setPhoto(p => (p - 1 + photoCount) % photoCount) }}
+                aria-label="Précédent"
+                style={{position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', background: 'rgba(10,10,11,0.75)', border: '1px solid #374151', color: '#d1d5db', cursor: 'pointer', width: '42px', height: '42px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0}}
+              >
+                <ChevronLeft size={22} />
+              </button>
+            )}
+
+            <img
+              src={`/places/${selectedLocation.id}/${String(photo + 1).padStart(2, '0')}.jpg`}
+              alt={selectedLocation.name}
+              onClick={(e) => e.stopPropagation()}
+              style={{maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', display: 'block', border: '1px solid #1f2937'}}
+            />
+
+            {photoCount > 1 && (
+              <button
+                onClick={(e) => { e.stopPropagation(); setPhoto(p => (p + 1) % photoCount) }}
+                aria-label="Suivant"
+                style={{position: 'absolute', right: '16px', top: '50%', transform: 'translateY(-50%)', background: 'rgba(10,10,11,0.75)', border: '1px solid #374151', color: '#d1d5db', cursor: 'pointer', width: '42px', height: '42px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0}}
+              >
+                <ChevronRight size={22} />
+              </button>
+            )}
+          </div>
+
+          <div onClick={(e) => e.stopPropagation()} style={{flexShrink: 0, borderTop: '1px solid #1f2937', background: 'rgba(10,10,11,0.9)', padding: '14px 16px'}}>
+            <div style={{maxWidth: '1100px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px'}}>
+              <div>
+                <p style={{color: 'white', fontSize: '15px', fontWeight: 'bold', margin: '0 0 3px 0'}}>{selectedLocation.name}</p>
+                <p style={{color: '#6b7280', fontSize: '11px', fontFamily: 'monospace', margin: 0}}>
+                  {selectedLocation.oblast} {t('oblast')}
+                </p>
+              </div>
+              <span style={{color: '#4b5563', fontSize: '11px', fontFamily: 'monospace', whiteSpace: 'nowrap'}}>
+                {photo + 1} / {photoCount}
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }
